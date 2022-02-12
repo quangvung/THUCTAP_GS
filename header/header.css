@@ -1,0 +1,102 @@
+.div_header {
+}
+
+.img_logo {
+  position: absolute;
+  width: 102px;
+  height: 121.3px;
+  left: 210px;
+  top: 45px;
+}
+
+.trang_chu {
+  position: absolute;
+  width: 162px;
+  height: 58px;
+  left: 577px;
+  top: 77px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #f4d58d;
+}
+
+.gioi_thieu {
+  position: absolute;
+  width: 162px;
+  height: 57px;
+  left: 734px;
+  top: 77px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #f4d58d;
+}
+
+.lien_he {
+  position: absolute;
+  width: 163px;
+  height: 57px;
+  left: 891px;
+  top: 77px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #f4d58d;
+}
+
+.cua_hang {
+  position: absolute;
+  width: 159px;
+  height: 57px;
+  left: 1030px;
+  top: 77px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #f4d58d;
+}
+
+.account_circle {
+  position: absolute;
+  width: 60px;
+  height: 77px;
+  left: 1218px;
+  top: 120px;
+}
+
+.shopping_cart {
+    position: absolute;
+    width: 60px;
+    height: 77px;
+    left: 1258px;
+    top: 120px;
+}
