@@ -10,16 +10,13 @@
 </head>
 <body>
     <div class="quanlitaikhoan">
-        <div class="div1">
-          <h1 class="text_qltk"> QUẢN LÍ TÀI KHOẢN </h1>
-          <h1 class="text_qltk"> THÔNG TIN TÀI KHOẢN </h1>
-          <h1 class="text_qltk"> LIÊN KẾT NGÂN HÀNG </h1>
-          <h1 class="text_qltk"> ĐƠN HÀNG CỦA TÔI </h1>
+          <h1 class="qltk"> QUẢN LÍ TÀI KHOẢN </h1>
+          <h1 class="tttk"> THÔNG TIN TÀI KHOẢN </h1>
+          <h1 class="lknh"> LIÊN KẾT NGÂN HÀNG </h1>
+          <h1 class="dhct"> ĐƠN HÀNG CỦA TÔI </h1>
 
-        </div>
-  
-        <div class="div2">
-          <h1 class="thongtintk">THÔNG TIN TÀI KHOẢN</h1>
+        <section class="thongtintaikhoan">
+          <h1 class="text_tttk">THÔNG TIN TÀI KHOẢN</h1>
           
           <h3 class="tenkhachhang">Tên khách hàng</h3>
           <input type="text" class="hovaten">
@@ -46,9 +43,64 @@
           
           <h3 class="huy" >Hủy</h3>
           <h3 class="luu" >Lưu</h3>
-        </div>
+        </section>
 
+        <section class="lienketnganhang">
+          <h1 class="text_lknh">LIÊN KẾT NGÂN HÀNG</h1>
+          <h3 class="tennganhang">Tên ngân hàng</h3>
+          <input type="text" name="nganhang" list="nganhangList">
+          <datalist id="nganhangList">
+            <option value="Vietcombank">  
+            <option value="BIDV">
+            <option value="Sacombank">
+            <option value="Techcombank"> 
+          </datalist>
+          <h3 class="loaithe">Loại thẻ</h3>
+          <input type="text" name="the" list="theList">
+          <datalist id="theList">
+            <option value="Visa">  
+            <option value="Mastercard">
+            <option value="JCB">
+          </datalist>
+          <h3 class="sotk_the">Số tài khoản / Thẻ</h3>
+          <input type="text" class="nhapsotk_the" />
+          <i class="fa fa-pencil"></i>
+          <h3 class="hotenchuthe">Họ tên chủ thẻ</h3>
+          <input type="text" class="nhaphotenchuthe" />
+          <i class="fa fa-pencil"></i>
+          <h3 class="ngayphathanh">Ngày phát hành</h3>
+         <input type="month" id="start" name="trip-start"
+          value="1"
+          min="1" max="12">
+         <input type="year" id="start" name="trip-start"
+          value="1"
+          min="1990" max="2022">
+          <h3 class="thaydoi" >Thay đổi</h3>
+          <h3 class="huy" >Hủy</h3>
+          <h3 class="luu" >Lưu</h3>
+        </section>
+
+        <section class="theodoidonhang">
+          <h1 class="text_tddh">THEO DÕI ĐƠN HÀNG</h1>
+          <h3 class="madon"> Mã đơn: ABCXYZ123456 </h3>
+          <h3 class="dangchuanbihang"> 
+            Đang chuẩn bị hàng 12:00 
+            Ngày 15/10/2021
+          </h3>
+          <h3 class="roikhoicuahang"> 
+            Rời khỏi cửa hàng 15:00 
+            Ngày 15/10/2021
+          </h3>
+          <h3 class="danggiaohang"> 
+            Đang giao hàng 15:15 
+            Ngày 15/10/2021
+          </h3>
+          <h3 class="giaohangthanhcong"> 
+            Giao hàng thành công 15:40 
+            Ngày 15/10/2021
+          </h3>
+        </section>
       </div>
-      <div></div>
+      
 </body>
 </html>
