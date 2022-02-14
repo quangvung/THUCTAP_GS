@@ -1,0 +1,41 @@
+
+.text_camon {
+  position: absolute;
+  width: 648px;
+  height: 264px;
+  left: 636px;
+  top: 408px;
+  font-family: 'Davida Bold', sans-serif;
+  font-family: 'Davida', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 124px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #f4d58d;
+}
+
+.text_tieptucmuasam {
+  position: absolute;
+  width: 242px;
+  height: 29px;
+  left: 838.95px;
+  top: 727px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #f4d58d;
+}
+
+
+
