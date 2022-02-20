@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa hàng</title>
+    <!-- Bootstrap -->
+	<!-- Scripts -->
+    <!-- Style css -->
+    <link rel="stylesheet" href="store.css">
+    <!-- Google Icon Awesome 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google font awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif+Caption&family=Puppies+Play&display=swap" rel="stylesheet"> 
+    <!-- style w3 school -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<!-- CATEGORIES SIDEBAR -->
+    <div class="categorysidebar">
+        <!-- Sidebar -->
+        <div class="storesidebar w3-sidebar w3-bar-block w3-border-right" style="display:none;" id="mySidebar">
+            <button onclick="w3_close()" class="storebuttonclose w3-bar-item w3-large"><i class="fa fa-align-justify"></i>&emsp;Danh sách sản phẩm</button>
+            <ul>
+                <li><a href="#" class="w3-bar-item w3-button">Bộ trà/Cafe</a></li>
+                <li><a href="#" class="w3-bar-item w3-button">Tô và dĩa</a></li>
+                <li><a href="#" class="w3-bar-item w3-button">Bộ đồ ăn</a></li>
+                <li><a href="#" class="w3-bar-item w3-button">Bình hoa</a></li>
+                <li><a href="#" class="w3-bar-item w3-button">Đồ trang trí</a></li>
+                <li><a href="#" class="w3-bar-item w3-button">Niêu đất</a></li>
+            </ul>
+            <ul>
+                <input type="checkbox" id="price1" name="price1" value="" style="background-color: transparent;">
+                <lable for="price1" style="background-color: transparent;">100.000 - 300.000</lable>
+                <br>
+                <input type="checkbox" id="price2" name="price2" value="" style="background-color: transparent;">
+                <lable for="price2" style="background-color: transparent;">300.000 - 500.000</lable>
+                <br>
+                <input type="checkbox" id="price3" name="price3" value="" style="background-color: transparent;">
+                <lable for="price3" style="background-color: transparent;">500.000 - 1.000.000</lable>
+                <br>
+                <input type="checkbox" id="price4" name="price4" value="" style="background-color: transparent;">
+                <lable for="price4" style="background-color: transparent;">1.000.000 - 2.000.000</lable>
+                <br>
+                <input type="checkbox" id="price5" name="price5" value="" style="background-color: transparent;">
+                <lable for="price5" style="background-color: transparent;">2.000.000 trở lên</lable>
+                <br>
+            </ul>
+        </div>
+        <!-- Page Content -->
+        <div>
+            <button class="storebuttonopen w3-button w3-xlarge" onclick="w3_open()"><i class="fa fa-align-justify"></i></button>
+        </div>
+
+        <!-- SLIDER NEW PRODUCTS -->
+        <div class="slideshow-container-newproducts">
+            <h1 class="new-products">SẢN PHẨM MỚI</h1>
+            <!-- Full-width images with number and text -->
+            <div class="mySlides fade">
+                <div class="row">
+                    <div class="newproduct">
+                        <img src="storeimgs/Rectangle67.png" class="img_gom1">
+                        <h3>BỘ CÀ PHÊ 0.8L - SAGO MẪU ĐƠN VÀNG</h3>
+                        <h2 style="padding-left:30px;">2.230.000 VNĐ</h2>
+                    </div>
+                    <div class="newproduct">
+                        <img src="storeimgs/Rectangle68.png" class="img_gom1">
+                        <h3>BỘ TRÀ 0.7L - JASMINE QUẢ ĐẦU MÙA</h3>
+                        <h2 style="padding-left:30px;">858.000 VNĐ</h2>
+                    </div>
+                    <div class="newproduct">
+                        <img src="storeimgs/Rectangle69.png" class="img_gom1">
+                        <h3>BỘ CÀ PHÊ 0.8L - SAGO THIÊN TUẾ XANH KHẮC NỔI</h3>
+                        <h2 style="padding-left:30px;">3.624.500 VNĐ</h2>
+                    </div>
+                    <div class="newproduct">
+                        <img src="storeimgs/Rectangle70.png" class="img_gom1">
+                        <h3>BỘ CÀ PHÊ PHIN - CAMELLIA MÀU CÀ PHÊ</h3>
+                        <h2 style="padding-left:30px;">935.000 VNĐ</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="row">
+                    <div class="newproduct">
+                        <img src="storeimgs/Rectangle68.png" class="img_gom1">
+                        <h3>BỘ TRÀ 0.7L - JASMINE QUẢ ĐẦU MÙA</h3>
+                        <h2 style="padding-left:30px;">858.000 VNĐ</h2>
+                    </div>
+                    <div class="newproduct">
+                        <img src="storeimgs/Rectangle69.png" class="img_gom1">
+                        <h3>BỘ CÀ PHÊ 0.8L - SAGO THIÊN TUẾ XANH KHẮC NỔI</h3>
+                        <h2 style="padding-left:30px;">3.624.500 VNĐ</h2>
+                    </div>
+                    <div class="newproduct">
+                        <img src="storeimgs/Rectangle70.png" class="img_gom1">
+                        <h3>BỘ CÀ PHÊ PHIN - CAMELLIA MÀU CÀ PHÊ</h3>
+                        <h2 style="padding-left:30px;">935.000 VNĐ</h2>
+                    </div>
+                    <div class="newproduct">
+                        <img src="storeimgs/Rectangle67.png" class="img_gom1">
+                        <h3>BỘ CÀ PHÊ 0.8L - SAGO MẪU ĐƠN VÀNG</h3>
+                        <h2 style="padding-left:30px;">2.230.000 VNĐ</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div class="dots" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+
+        <br> 
+        <br> 
+        <br> 
+        <br>
+
+        <!-- SLIDER BEST SELLER PRODUCTS -->
+        <div class="slideshow-container-bestsellerproducts">
+            <h1 class="bestseller-products">SẢN PHẨM BÁN CHẠY</h1>
+            <!-- Full-width images with number and text -->
+            <div class="mySlides2 fade">
+                <div class="row">
+                    <div class="bestsellerproduct">
+                        <img src="storeimgs/Rectangle67(1).png" class="img_gom11">
+                        <h3>TÊN SẢN PHẨM</h3>
+                        <h2 style="padding-left:30px;">100.000 đ</h2>
+                    </div>
+                    <div class="bestsellerproduct">
+                        <img src="storeimgs/Rectangle68(1).png" class="img_gom11">
+                        <h3>BỘ TRÀ - HŨ TRÀ AN NHIÊN</h3>
+                        <h2 style="padding-left:30px;">1.799.000 VNĐ</h2>
+                    </div>
+                    <div class="bestsellerproduct">
+                        <img src="storeimgs/Rectangle69(1).png" class="img_gom11">
+                        <h3>BÌNH HOA 26CM - SẮC HOA</h3>
+                        <h2 style="padding-left:30px;">3.498.000 VNĐ</h2>
+                    </div>
+                    <div class="bestsellerproduct">
+                        <img src="storeimgs/Rectangle70(1).png" class="img_gom11">
+                        <h3>TÊN SẢN PHẨM</h3>
+                        <h2 style="padding-left:30px;">100.000 đ</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides2 fade">
+                <div class="row">
+                    <div class="bestsellerproduct">
+                        <img src="storeimgs/Rectangle68(1).png" class="img_gom11">
+                        <h3>BỘ TRÀ - HŨ TRÀ AN NHIÊN</h3>
+                        <h2 style="padding-left:30px;">1.799.000 VNĐ</h2>
+                    </div>
+                    <div class="bestsellerproduct">
+                        <img src="storeimgs/Rectangle69(1).png" class="img_gom11">
+                        <h3>BÌNH HOA 26CM - SẮC HOA</h3>
+                        <h2 style="padding-left:30px;">3.498.000 VNĐ</h2>
+                    </div>
+                    <div class="bestsellerproduct">
+                        <img src="storeimgs/Rectangle70(1).png" class="img_gom11">
+                        <h3>TÊN SẢN PHẨM</h3>
+                        <h2 style="padding-left:30px;">100.000 đ</h2>
+                    </div>
+                    <div class="bestsellerproduct">
+                        <img src="storeimgs/Rectangle67(1).png" class="img_gom11">
+                        <h3>TÊN SẢN PHẨM</h3>
+                        <h2 style="padding-left:30px;">100.000 đ</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div class="dots2" style="text-align:center">
+                <span class="dot2" onclick="currentSlide2(1)"></span>
+                <span class="dot2" onclick="currentSlide2(2)"></span>
+            </div>
+        </div>
+    </div>    
+    
+
+
+    <!-- JS FOR SLIDER NEW PRODUCTS -->
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+
+    <!-- JS FOR SLIDER BEST SELLER PRODUCTS -->
+    <script>
+        var slideIndex = 1;
+        showSlides2(slideIndex);
+        
+        function plusSlides2(n) {
+        showSlides2(slideIndex += n);
+        }
+        
+        function currentSlide2(n) {
+        showSlides2(slideIndex = n);
+        }
+        
+        function showSlides2(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides2");
+        var dots = document.getElementsByClassName("dot2");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+        
+    <!-- JS FOR CLICK ICON LIST TO OPEN THE SIDE BAR -->
+    <script>
+        function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+        }
+        
+        function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+</body>
+</html>
