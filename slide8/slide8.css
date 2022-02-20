@@ -269,3 +269,45 @@ background-color:transparent;
 color: #F4D58D;
 border: none;
 }
+
+.table2 h3{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.table2 small{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.table2 .tdtext{
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+.table2 .tdimg{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-btn{
+  margin:0 auto 10px;
+  text-align:center;
+}
+
+.page-btn span{
+  display: inline-block;
+    border: 1px solid #F4D58D;
+    color: #F4D58D;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+  background:#F4D58D;
+  color:white;
+}
