@@ -1,155 +1,63 @@
-/* header_homepage */
-.div_header {
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
   background-image:url("/image/start.png");
 }
 
-.img_logo {
-  margin-left:250px;
+body{
+
 }
 
-.trang_chu {
-position: absolute;
-/* width: 162px;
-  height: 58px;
-  left: 577px;
-  top: 77px; */
-  margin-left:577px;
+.navbar{
+  display:flex;
+  align-items:center;
+  padding:77px;
+  background: transparent;
+}
 
+.logo{
+  padding-left:100px !important;
+  background: transparent;
+}
+
+nav{
+  flex:1;
+  text-align:right;
+  background: transparent;
+}
+
+nav ul{
+  display:inline-block;
+  list-style-type: none;
+  background: transparent;
+}
+
+nav ul li{
+  display:inline-block;
+  margin-right:70px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  display: flex;
   align-items: center;
   text-align: center;
-
-  color: #f4d58d;
+  background: transparent;
 }
 
-.gioi_thieu {
-  position: absolute;
-  /* width: 162px;
-  height: 57px;
-  left: 734px;
-  top: 77px; */
-  margin-left:734px;
+a{
+  text-decoration: none;
+  color: #f4d58d;
+  background: transparent;
+}
 
+p{
+  padding-top:20px;
+  padding-left:430px;
+  padding-right:430px;
+  background: transparent;
   font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #f4d58d;
-}
-
-.lien_he {
-  position: absolute;
-  /* width: 163px;
-  height: 57px;
-  left: 891px;
-  top: 77px; */
-  margin-left: 891px;
-
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #f4d58d;
-}
-
-.cua_hang {
-  position: absolute;
-  /* width: 159px;
-  height: 57px;
-  left: 1030px;
-  top: 77px; */
-  margin-left:1030px;
-
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #f4d58d;
-}
-
-.account_circle {
-  /* position: absolute;
-  width: 60px;
-  height: 77px;
-  left: 1218px;
-  top: 120px; */
-  color: #f4d58d;
-}
-
-.shopping_cart {
-    /* position: absolute;
-    width: 60px;
-    height: 77px;
-    left: 1258px;
-    top: 120px; */
-    color: #f4d58d;
-}
-
-/* startingpage */
-.starting_page{
-  background-image:url("/image/start.png");
-
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  /* margin-top:200px; */
-}
-.h1_startingpage {
-  /*  position: absolute;*/
-  /* width: 692px;
-  height: 405.2px;
-  left: 493.47px;
-  top: 80.95px; */
-  margin-left: 493px;
-  margin-top: 20px;
-
-  /* font-family: "UTM Davida"; */
-  font-family: 'Puppies Play', cursive;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 140px;
-  line-height: 181px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #f4d58d;
-
-  transform: rotate(-0.16deg);
-}
-
-.p_startingpage{
-/*     position: absolute;
-*//*   width: 692px;
-height: 291.02px;
-left: 493.74px;
-top: 249.93px; */
-margin-left: 343.74px;
-margin-top: 25.36px;
-
-
-/* font-family: "Montserrat"; */
-font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -157,32 +65,49 @@ line-height: 17px;
 display: flex;
 align-items: center;
 text-align: center;
-color: white;
+color: #FFFFFF;
 transform: rotate(-0.16deg);
+}
+
+.container{
+  max-width:1300px;
+  margin:auto;
+  padding-left:25px;
+  padding-right:25px;
+  background: transparent;
+}
+
+.row{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  background: transparent;
+}
+
+.langsom{
+  padding-left: 450px;
+  background: transparent;
 }
 
 .btn_startingpage{
   margin-left: 663.8px;
-margin-top: 25.36px;
-margin-bottom:25px;
-  /* font-family: "SVN-Aptima"; */
-font-family: 'PT Serif Caption', serif;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 66px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #f4d58d;
-
-transform: rotate(-0.16deg);
-border: 2px solid #F4D58D;
-box-sizing: border-box;
-border-radius: 35px;
-background-color:transparent;
-
-
+  margin-top: 25.36px;
+  margin-bottom:25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'PT Serif Caption', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #f4d58d;
+  transform: rotate(-0.16deg);
+  border: 2px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 35px;
+  background:transparent;
 }
-
