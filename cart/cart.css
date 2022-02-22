@@ -1,7 +1,38 @@
-.cart_page{
-  margin: 80px auto;
+.cart_page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #001427;
 }
-table{
+.header {
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+li a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+table {
   width: 100%;
   border-collapse: collapse;
 }
@@ -20,17 +51,15 @@ table{
   flex-wrap: wrap;
 }
 
-.td{
+.td {
   padding: 10px 5px;
 }
 
-.td input{
+.td input {
   width: 40px;
   height: 30px;
   padding: 5px;
 }
-
-
 
 .text_camon {
   width: 1000px;
