@@ -2,44 +2,72 @@
 <html>
 
 <head>
-	<meta charset="utf-8" />
-	<title>Home Page</title>
-    <!-- Bootstrap -->
-	<!-- Scripts -->
-    <!-- Style css -->
-    <link rel="stylesheet" href="home.css">
-    <!-- Google Icon Awesome 4 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- google font awesome -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif+Caption&family=Puppies+Play&display=swap" rel="stylesheet"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gốm Sứ Việt Nam | Home</title>
+  <link rel="stylesheet" href="home.css">
+  <!-- Font Chữ -->
+  <link href="http://fonts.cdnfonts.com/css/davida-bold" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Festive&family=Poppins:ital,wght@0,100;1,100;1,300&family=Satisfy&display=swap" rel="stylesheet"> 
+  <!-- Icon 4.7 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 	<div class="home_page">
         <!-- header_homepage -->
-        <section class="header_homepage">
-            <!-- đang fix -->
-        </section>
+        <div class="header" style="background-color: #001427;">
+            <div class="container">
+              <div class="navbar">
+                <div class="logo" style="background: transparent;">
+                  <a href="index.html">
+                    <img src="/image/logo_header.png" width="82px" style="background: transparent;">
+                  </a>
+                </div>
+                <nav>
+                  <ul>
+                    <li><a href="/home/home.html">Trang chủ</a></li>
+                    <li><a href="/intro/intro.html">Giới thiệu</a></li>
+                    <li><a href="/contact/contact.html">Liên hệ</a></li>
+                    <li><a href="store/store.html">Cửa hàng</a></li>
+                  </ul>
+                </nav>
+                <a href="quanlitaikhoan/quanlitaikhoan.html">
+                  <!-- <i class="fa fa-user-circle-o" style="color:#f4d58d"></i> -->
+                  <img src="/image/user.png" width="65px" style="padding-right:25px; background: transparent;">
+                </a>
+                <a href="cart/cart.html">
+                  <!-- <i class="fa fa-shopping-cart" style="color:#f4d58d"></i> -->
+                  <img src="/image/icon.png" width="41px"  style="background: transparent;">
+                </a>
+              </div>
+            </div>
+          </div>
         <!-- sliders_homepage -->
-        <section class="sliders_homepage">
+        <section class="sliders_homepage" style="background-color: #001427;">
             <div class="slideshow-container">
                 <!-- Full-width images with number and text -->
                 <div class="mySlides fade">
                     <img src="gom1.png" class="img_gom1">
                     <div class="text">
-                        <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3>
+                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
+                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
                         <p class="p_sec2">
                           Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. <br> Lorem Ipsum has been the industry's
-                          standard dummy text ever since the 1500s, <br> when an unknown
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown
                           printer took a galley of type and scrambled it to make a type
                           specimen book.
                         </p>
-                        <div>
-                            <button class="btn_xemthem">XEM THÊM</button>
-                            <button class="btn_sanpham">XEM SẢN PHẨM</button>
+                        <div style="display:inline;">
+                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
+                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
+                            <!-- <button class="btn_xemthem">XEM THÊM</button>
+                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
                         </div>
                     </div>
                 </div>
@@ -47,102 +75,136 @@
                 <div class="mySlides fade">
                     <img src="gom1.png" class="img_gom1">
                     <div class="text">
-                        <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG 2</h3>
+                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
+                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
                         <p class="p_sec2">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. <br> Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, <br> when an unknown
-                            printer took a galley of type and scrambled it to make a type
-                            specimen book.
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown
+                          printer took a galley of type and scrambled it to make a type
+                          specimen book.2
                         </p>
-                        <button class="btn_xemthem">XEM THÊM</button>
-                        <button class="btn_sanpham">XEM SẢN PHẨM</button>
+                        <div style="display:inline;">
+                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
+                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
+                            <!-- <button class="btn_xemthem">XEM THÊM</button>
+                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
+                        </div>
                     </div>
                 </div>
         
                 <div class="mySlides fade">
                     <img src="gom1.png" class="img_gom1">
                     <div class="text">
-                        <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG 3</h3>
+                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
+                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
                         <p class="p_sec2">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. <br> Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, <br> when an unknown
-                            printer took a galley of type and scrambled it to make a type
-                            specimen book.
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown
+                          printer took a galley of type and scrambled it to make a type
+                          specimen book.3
                         </p>
-                        <button class="btn_xemthem">XEM THÊM</button>
-                        <button class="btn_sanpham">XEM SẢN PHẨM</button>
+                        <div style="display:inline;">
+                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
+                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
+                            <!-- <button class="btn_xemthem">XEM THÊM</button>
+                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
+                        </div>
                     </div>
                 </div>
         
                 <div class="mySlides fade">
                     <img src="gom1.png" class="img_gom1">
                     <div class="text">
-                        <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG 4</h3>
+                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
+                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
                         <p class="p_sec2">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. <br> Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, <br> when an unknown
-                            printer took a galley of type and scrambled it to make a type
-                            specimen book.
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown
+                          printer took a galley of type and scrambled it to make a type
+                          specimen book.4
                         </p>
-                        <button class="btn_xemthem">XEM THÊM</button>
-                        <button class="btn_sanpham">XEM SẢN PHẨM</button>
+                        <div style="display:inline;">
+                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
+                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
+                            <!-- <button class="btn_xemthem">XEM THÊM</button>
+                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
+                        </div>
                     </div>
                 </div>
         
                 <div class="mySlides fade">
                     <img src="gom1.png" class="img_gom1">
                     <div class="text">
-                        <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG 5</h3>
+                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
+                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
                         <p class="p_sec2">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. <br> Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, <br> when an unknown
-                            printer took a galley of type and scrambled it to make a type
-                            specimen book.
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown
+                          printer took a galley of type and scrambled it to make a type
+                          specimen book.5
                         </p>
-                        <button class="btn_xemthem">XEM THÊM</button>
-                        <button class="btn_sanpham">XEM SẢN PHẨM</button>
+                        <div style="display:inline;">
+                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
+                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
+                            <!-- <button class="btn_xemthem">XEM THÊM</button>
+                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
+                        </div>
                     </div>
                 </div>
         
                 <div class="mySlides fade">
                     <img src="gom1.png" class="img_gom1">
                     <div class="text">
-                        <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG 6</h3>
+                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
+                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
                         <p class="p_sec2">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. <br> Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, <br> when an unknown
-                            printer took a galley of type and scrambled it to make a type
-                            specimen book.
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown
+                          printer took a galley of type and scrambled it to make a type
+                          specimen book.6
                         </p>
-                        <button class="btn_xemthem">XEM THÊM</button>
-                        <button class="btn_sanpham">XEM SẢN PHẨM</button>
+                        <div style="display:inline;">
+                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
+                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
+                            <!-- <button class="btn_xemthem">XEM THÊM</button>
+                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
+                        </div>
                     </div>
                 </div>
         
                 <div class="mySlides fade">
                     <img src="gom1.png" class="img_gom1">
                     <div class="text">
-                        <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG 7</h3>
+                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
+                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
                         <p class="p_sec2">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. <br> Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, <br> when an unknown
-                            printer took a galley of type and scrambled it to make a type
-                            specimen book.
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an unknown
+                          printer took a galley of type and scrambled it to make a type
+                          specimen book.7
                         </p>
-                        <button class="btn_xemthem">XEM THÊM</button>
-                        <button class="btn_sanpham">XEM SẢN PHẨM</button>
+                        <div style="display:inline;">
+                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
+                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
+                            <!-- <button class="btn_xemthem">XEM THÊM</button>
+                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
+                        </div>
                     </div>
                 </div>
         
                 <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <a class="prev" onclick="plusSlides(-1)">
+                    <img src="/image/iconarrowleft.png" style="padding-left: 75px;"/>
+                </a>
+                <a class="next" onclick="plusSlides(1)">
+                    <img src="/image/iconarrowright.png" style="padding-right: 75px;"/>
+                </a>
                 </div>
         
                 <br>
@@ -157,6 +219,8 @@
                     <span class="dot" onclick="currentSlide(6)"></span>
                     <span class="dot" onclick="currentSlide(7)"></span>
                 </div>
+                <br>
+                <br>
             </div>
         </section>
         <!-- nguongoc_homepage -->
@@ -164,7 +228,8 @@
             <div class="homepage_nguongoc">
                 <div class="row-1st">
                     <div class="col-1">
-                        <h3 class="h3_nguongoc">NGUỒN GỐC</h3>
+                        <!-- <h3 class="h3_nguongoc">NGUỒN GỐC</h3> -->
+                        <img src="text_nguongoc.png" class="text_nguongoc">
                         <p class="p_nguongoc">
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -175,6 +240,7 @@
                             an unknown printer took a galley of type and scrambled it to make a
                             type specimen book
                         </p>
+                        <br>
                         <!-- Collapsible page Nguongoc -->
                         <button class="collapsible" onclick="myFunction()" id="myBtn">XEM THÊM</button>
                     </div>
@@ -194,14 +260,14 @@
                                 <img src="nguongoc_2.png" class="nguongoc_img_2">
                             </div>
                             <div class="col-2">
-                                <p class="p_nguongoc">
+                                <p class="p_nguongoc" style="padding-right: 15px!important; padding-left: 0px!important; text-align: left!important;">
                                     Phường Bát Tràng (社鉢場) là tên gọi cũ của làng gốm sứ Bát Tràng thuộc quận Gia Lâm, Hà Nội trong khoảng trước năm 1945. Trước đây hơn 700 năm, người dân thôn Bát Tràng thiên di từ làng tình nhân Bát (xã người tình Xuyên và trang Bạch Bát thuộc tổng Bạch Bát, quận yên Mô, phủ Trường yên ổn , trấn Thanh Hóa ngoại, nay là 2 thôn của phố yên ổnThành, huyện im Mô, tỉnh Ninh Bình[1]), theo vua Lý Công Uẩn rời đô trong khoảng Hoa Lư ra Thăng Long, đến vùng đất bồi trên bờ sông Hồng, lập phố khiến cho nghề gốm (gạch xây dựng); lúc đầu thôn Bát Tràng được gọi là Bạch Thổ phố , thị trấn Bát Tràng (tức làng Bát Tràng hiện tại) thuộc tổng Đông Dư, huyện Gia Lâm, phủ Thuận An, thức giấc Bắc Ninh) sinh sống cốt bằng nghề làm gốm sứ và buôn bán và làm quan. . Năm 1948, xãBát Tràng nhập sở hữu phố Giang Cao và phường Kim Lan lập thành thị trấn quang quẻ Minh. từ năm 1964, xã Bát Tràng được có mặt trên thị trường gồm hai thôn Bát Tràng và Giang Cao như hiện. Gốm sứ bát tràng luôn mang một vị trí trong những người dùng trong nước cũng như ngoaifi nước bởi sở hữu nhiều ưu chấm .
                                 </p>
                             </div>
                         </div>
                         <div class="row-3rd">
                             <div class="col-3">
-                                <p class="p_nguongoc">
+                                <p class="p_nguongoc" style="padding-left: 15px!important; padding-right: 0px!important; text-align: right!important;">
                                     Hiện, sản phẩm gốm sứ Bát Tràng ngày một phong phú và phổ biến . Ngoài các mặt hàng truyền thống, các lò gốm sứ Bát Tràng lâu đời còn sinh sản nhiều sản phẩm gốm sứ Bát Tràng cao cấp mới đáp ứng yêu cầu tiêu dùng trong Việt Nam như cácloại ấm chén, bát đĩa, lọ hoa… kiểu mới, các nguyên liệu xây dựng , các mẫu sứ phương pháp điện… và những sản phẩm xuất khẩu theo đơn đặt hàng của nước ngoài. Sản phẩm Bát Tràng ra đời cả nước và được xuất khẩu sang phổ thông nước châu Á, châu Âu. Bát Tràng suýt nhiều nhân lực từ khắp nơi về sáng tác mẫu mã mới và cải tiến kỹ thuật chế tác . một số nghệ nhân đã bước đầu thành công trong việc khôi phục một số đồ gốm cổ sở hữu những ngoại hình và nước men đặc sắc thời Lý, è cổ, Lê, Mạc…Sau năm 1986 làng gốm sứ Bát Tràng mang sự chuyển biến totheo hướngkinh tế thị phần . những cộng tác phố lần lượt giải thể hoặc chuyển thành công ty cổ phần, những doanh nghiệp tođược có mặt trên thị trường nhưng vẫn còn còn đó phổ biến tổ phân phối và đa dạng là các công ty sản xuất nhỏ theo hộ gia đình. phố Bát Tràng nay đã trở nên một trung tâm gốm lớn.
                                 </p>
                             </div>
@@ -222,7 +288,8 @@
                         <img src="dacdiem.png" class="dacdiem_dacdiem_img_1">
                     </div>
                     <div class="dacdiem_col-1">
-                        <h3 class="dacdiem_h3_dacdiem">ĐẶC ĐIỂM</h3>
+                        <!-- <h3 class="dacdiem_h3_dacdiem">ĐẶC ĐIỂM</h3> -->
+                        <img src="text_dacdiem.png" class="text_dacdiem">
                         <p class="dacdiem_p_dacdiem" id="p_dacdiem_1">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
