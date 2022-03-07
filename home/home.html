@@ -311,38 +311,40 @@
         </section>
         <!-- hinhanh_homepage -->
         <section class="hinhanh_homepage">
-            <div class="slideshow-container">
-                <h1 class="homepage-hinhanh">HÌNH ẢNH</h1>
+            <div class="slideshow-container2">
+                <!-- <h1 class="homepage-hinhanh">HÌNH ẢNH</h1> -->
+                <img src="text_hinhanh.png" class="text_hinhanh">
+
                 <!-- Full-width images with number and text -->
-                <div class="mySlides fade">
+                <div class="mySlides2 fade2">
                     <img src="rectangle45.png" class="gom1">
                     <img src="rectangle46.png" class="gom2">
                     <img src="rectangle48.png" class="gom3">
                     <img src="rectangle49.png" class="gom4">
                 </div>
         
-                <div class="mySlides fade">
+                <div class="mySlides2 fade2">
                     <img src="rectangle46.png" class="gom1">
                     <img src="rectangle48.png" class="gom2">
                     <img src="rectangle49.png" class="gom3">
                     <img src="rectangle45.png" class="gom4">
                 </div>
         
-                <div class="mySlides fade">
+                <div class="mySlides2 fade2">
                     <img src="rectangle48.png" class="gom1">
                     <img src="rectangle49.png" class="gom2">
                     <img src="rectangle45.png" class="gom3">
                     <img src="rectangle46.png" class="gom4">
                 </div>
         
-                <div class="mySlides fade">
+                <div class="mySlides2 fade2">
                     <img src="rectangle49.png" class="gom1">
                     <img src="rectangle45.png" class="gom2">
                     <img src="rectangle46.png" class="gom3">
                     <img src="rectangle48.png" class="gom4">
                 </div>
         
-                <div class="mySlides fade">
+                <div class="mySlides2 fade2">
                     <img src="rectangle45.png" class="gom1">
                     <img src="rectangle46.png" class="gom2">
                     <img src="rectangle48.png" class="gom3">
@@ -350,25 +352,66 @@
                 </div>
         
                 <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <a class="prev2" onclick="plusSlides2(-1)">
+                    <img src="/image/iconarrowleft.png" style="padding-left: 75px;"/>
+                </a>
+                <a class="next2" onclick="plusSlides2(1)">
+                    <img src="/image/iconarrowright.png" style="padding-right: 75px;"/>
+                </a>
                 </div>
         
                 <br>
         
                 <!-- The dots/circles -->
-                <div class="dots" style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                    <span class="dot" onclick="currentSlide(4)"></span>
-                    <span class="dot" onclick="currentSlide(5)"></span>
+                <div class="dots2" style="text-align:center">
+                    <span class="dot2" onclick="currentSlide2(1)"></span>
+                    <span class="dot2" onclick="currentSlide2(2)"></span>
+                    <span class="dot2" onclick="currentSlide2(3)"></span>
+                    <span class="dot2" onclick="currentSlide2(4)"></span>
+                    <span class="dot2" onclick="currentSlide2(5)"></span>
                 </div>
+                <br>
+                <br>
             </div>
         </section>
         <!-- footer_homepage -->
         <section class="footer_homepage">
-            <!-- đang fix -->
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img class="logo_footer" src="/image/footer_logo.png" />
+                </a>
+            </div>
+            <div class="footer_nav">
+                <a href="index.html">
+                    <h2 class="trang_chu">Trang chủ</h2>
+                </a>
+                <a href="intro.html">
+                    <h2 class="gioi_thieu">Giới thiệu</h2>
+                </a>
+                <a href="contact.html">
+                    <h2 class="lien_he">Liên hệ</h2>
+                </a>
+                <a href="store.html">
+                    <h2 class="cua_hang">Cửa hàng</h2>
+                </a>
+            </div>
+            <div class="footer_icons">
+                <a href="https://www.instagram.com">
+                    <img src="/image/footer_instagram.png" class="footer_instagram">
+                  </a>
+                  <a href="https://www.facebook.com">
+                    <img src="/image/footer_facebook.png" class="footer_facebook">
+                  </a>
+                  <a href="https://www.linkedin.com">
+                    <img src="/image/footer_linkedin.png" class="footer_linkedin">
+                  </a>
+                  <a href="https://www.youtube.com">
+                    <img src="/image/footer_youtube.png" class="footer_youtube">
+                  </a>
+            </div>
+            <div class="footer_copyright">
+                <img src="/image/footer_text.png" class="footer_copyright">
+            </div>
         </section>
     </div>
 
@@ -428,7 +471,36 @@
             }
         }
 
+    </script>
 
+    <script>
+        /* Sliders Hinh Anh*/
+        var slideIndex2 = 1;
+        showSlides2(slideIndex2);
+        
+        function plusSlides2(n) {
+        showSlides2(slideIndex2 += n);
+        }
+        
+        function currentSlide2(n) {
+        showSlides2(slideIndex2 = n);
+        }
+        
+        function showSlides2(n) {
+        var i;
+        var slides2 = document.getElementsByClassName("mySlides2");
+        var dots2 = document.getElementsByClassName("dot2");
+        if (n > slides2.length) {slideIndex2 = 1}    
+        if (n < 1) {slideIndex2 = slides2.length}
+        for (i = 0; i < slides2.length; i++) {
+            slides2[i].style.display = "none";  
+        }
+        for (i = 0; i < dots2.length; i++) {
+            dots2[i].className = dots2[i].className.replace(" active", "");
+        }
+        slides2[slideIndex2-1].style.display = "block";  
+        dots2[slideIndex2-1].className += " active";
+        }
     </script>
 </body>
 
