@@ -1,13 +1,14 @@
 .div_signin {
+  position: relative;
+  width: 1822px;
+  height: 900px;
+  background: #001427;
 }
 
 .img_dangnhap {
   position: absolute;
-  width: 527px;
-  height: 736px;
   left: 332px;
-  top: 259px;
-  border-radius: 200px;
+  top: 50px;
 }
 
 .text_dangnhap {
@@ -15,8 +16,7 @@
   width: 443px;
   height: 121px;
   left: 1163px;
-  top: 336px;
-
+  top: 100px;
   font-family: UTM Davida;
   font-style: normal;
   font-weight: normal;
@@ -29,40 +29,57 @@
 
 .tentaikhoan {
   position: absolute;
-  width: 407.33px;
-  height: 42.19px;
-  left: 1178.7px;
-  top: 463.12px;
-
+  width: 420px;
+  height: 60px;
+  left: 1170px;
+  top: 220px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  color: #ffffff;
+  font-size: 25px;
   line-height: 22px;
   display: flex;
   align-items: center;
-
-  color: #ffffff;
-
-  opacity: 0.6;
+  transform: rotate(-0.16deg);
+  border: 5px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color:transparent;
 }
+
+.mail {
+  position: absolute;
+  left: 1530px;
+  top: 230px;
+}
+
 
 .matkhau {
   position: absolute;
-  width: 407.33px;
-  height: 42.97px;
-  left: 1178.7px;
-  top: 554.54px;
-
+  width: 420px;
+  height: 60px;
+  left: 1170px;
+  top: 320px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  color: #ffffff;
+  font-size: 25px;
   line-height: 21px;
   display: flex;
   align-items: center;
+  transform: rotate(-0.16deg);
+  border: 5px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color:transparent;
+}
 
-  color: rgba(255, 255, 255, 0.5);
+.hint {
+  position: absolute;
+  left: 1530px;
+  top: 330px;
 }
 
 .quenmatkhau {
@@ -70,8 +87,7 @@
   width: 182px;
   height: 42px;
   left: 1163px;
-  top: 622px;
-
+  top: 400px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -79,7 +95,6 @@
   line-height: 22px;
   display: flex;
   align-items: center;
-
   color: #ffffff;
 }
 
@@ -87,9 +102,8 @@
   position: absolute;
   width: 185px;
   height: 42px;
-  left: 1423px;
-  top: 622px;
-
+  left: 1540px;
+  top: 400px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -98,7 +112,6 @@
   display: flex;
   align-items: center;
   text-align: right;
-
   color: #ffffff;
 }
 
@@ -107,11 +120,8 @@
   width: 45px;
   height: 43px;
   left: 1163px;
-  top: 671px;
-
-  border: 1px solid #f4d58d;
-  box-sizing: border-box;
-  border-radius: 5px;
+  top: 450px;
+  opacity: 0.1;
 }
 
 .text_luumatkhau {
@@ -119,9 +129,10 @@
   width: 145px;
   height: 42px;
   left: 1220px;
-  top: 672px;
+  top: 450px;
 
   font-family: Montserrat;
+  color: #ffffff;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -137,7 +148,7 @@
   width: 102px;
   height: 102px;
   left: 1334px;
-  top: 696px;
+  top: 490px;
 
   font-family: Montserrat;
   font-style: normal;
@@ -151,21 +162,120 @@
   color: #ffffff;
 }
 
-.dangnhap {
+.google {
   position: absolute;
-  width: 198.12px;
-  height: 42px;
-  left: 1288.88px;
-  top: 870px;
+  left: 1250px;
+  top: 580px;
+}
 
-  font-family: UTM Davida;
+.vector {
+  position: absolute;
+  left: 1370px;
+  top: 580px;
+}
+
+.facebook {
+  position: absolute;
+  left: 1450px;
+  top: 580px;
+}
+
+.dangnhap_text {
+  position: absolute;
+  left: 1284px;
+  top: 670px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_homepage {
+  box-sizing: border-box;
+  background-color: #001427;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 77px;
+  padding-top: 40px;
+  background: transparent;
+}
+
+.logo {
+  /* padding-left:100px !important; */
+  background: transparent;
+  /* width: 82px; */
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  background: transparent;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  background: transparent;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 70px;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 31px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #f4d58d;
+  background: transparent;
+}
+
+p {
+  padding-top: 20px;
+  padding-left: 430px;
+  padding-right: 430px;
+  background: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
   display: flex;
   align-items: center;
   text-align: center;
+  color: #ffffff;
+  transform: rotate(-0.16deg);
+}
 
-  color: #f4d58d;
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: transparent;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: transparent;
 }
