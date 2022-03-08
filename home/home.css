@@ -53,6 +53,20 @@ nav ul li{
   background: transparent;
 }
 
+nav ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f4d58d;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after{
+  width:100%;
+}
+
 a{
   text-decoration: none;
   color: #f4d58d;
@@ -178,7 +192,6 @@ border-radius: 3px 0 0 3px;
   font-weight: normal;
   font-size: 24px;
   line-height: 33px;
-  /* display: flex; */
   align-items: center;
   text-align: center;
   color: #f4d58d;
@@ -193,8 +206,7 @@ border-radius: 3px 0 0 3px;
   padding-bottom: 5px;
   padding-right: 5px;
   padding-left: 5px;
-  /*margin-left: 663.8px;
-  margin-bottom:25px; */
+  margin-right:20px;
 }
 
 .btn_sanpham {
@@ -203,7 +215,6 @@ border-radius: 3px 0 0 3px;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  /* display: flex; */
   align-items: center;
   text-align: center;
   color: #f4d58d;
@@ -217,8 +228,7 @@ border-radius: 3px 0 0 3px;
   padding-bottom: 7px;
   padding-right: 5px;
   padding-left: 5px;
-  /* margin-left: 663.8px;
-  margin-bottom:25px; */
+  margin-left: 20px;
 }
 
 /* The dots/bullets/indicators */
@@ -296,10 +306,6 @@ to {opacity: 1}
 .col-1 img{
   max-width:80%;
   padding:20px 0;
-}
-
-.text_nguongoc{
-
 }
 
 .p_nguongoc{
@@ -383,7 +389,6 @@ to {opacity: 1}
 }
 
 /*----------------------------dac diem----------------------------------*/
-
 
 .dacdiem_homepage{
   margin:0;
