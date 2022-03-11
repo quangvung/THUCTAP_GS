@@ -127,19 +127,61 @@ p{
 }
 
 .text-col-1{
-  /* padding-left: 150px;
-  padding-right: 150px; */
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.col-1 img{
+  max-width:80%;
+  padding:20px 0;
 }
 
 .p_lienhe{
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 24px;
+  line-height: 34px;
+  padding-left: 0px;
+  padding-right: 0px;
   text-align: left;
   color: #FFFFFF;
 }
+
+/* .form_group{
+  position: relative;
+}
+
+.form_field{
+  border:0;
+  outline: 0;
+  color: white;
+  background: transparent;
+}
+
+.form_group .form_field::placeholder{
+  color: white;
+  opacity: 0.5;
+}
+
+.form_group .form_field:placeholder-shown ~ .form_label{
+  cursor: text;
+}
+
+.form_label{
+  position: absolute;
+  display: block;
+  color: gray;
+}
+
+.form_field:focus{
+  ~ .form_label{
+
+  }
+} */
+
+
+
 
 /*------------------------------FOOTER---------------------------*/
 .footer_homepage{
