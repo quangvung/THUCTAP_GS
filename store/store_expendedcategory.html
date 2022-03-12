@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gốm Sứ Việt Nam | Store 2</title>
-  <link rel="stylesheet" href="store.css"> 
+  <title>Gốm Sứ Việt Nam | Store (Expended Category)</title>
+  <link rel="stylesheet" href="store_expendedcategory.css"> 
   <!-- Font Chữ -->
   <link href="http://fonts.cdnfonts.com/css/davida-bold" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,35 +45,25 @@
     </div>
   </div>
   
-  <div class="category_sidebar_simple">
-      <a href="store.html">
-        <img src="storeimgs/category_simple.png" class="category_simple">
-      </a>
-      <a href="store.html">
-        <img src="storeimgs/menu_simple.png" class="menu_simple">
-      </a>
-      <!-- <div class="category_expending" id="MenuItems">
-          <img src="storeimgs/category_expend.png" class="category_expend">
-          <div class="content_expend">
-            <img src="storeimgs/menu_expend.png" class="menu_expend">
-            <p>Danh sách sản phẩm</p>
-            <ul>
-              <li><a href="">Bộ trà</a></li>
-              <li><a href="">Tô và dĩa</a></li>
-              <li><a href="">Bộ đồ ăn</a></li>
-              <li><a href="">Bình hoa</a></li>
-              <li><a href="">Đồ trang trí</a></li>
-              <li><a href="">Niêu đất</a></li>
-            </ul>
-            <ul>
-              <li><input type="checkbox" id="gia1" value="100.000 - 300.000"><label for="gia1">100.000 - 300.000</label></li>
-              <li><input type="checkbox" id="gia2" value="300.000 - 500.000"><label for="gia2">300.000 - 500.000</label></li>
-              <li><input type="checkbox" id="gia3" value="500.000 - 1.000.000"><label for="gia3">500.000 - 1.000.000</label></li>
-              <li><input type="checkbox" id="gia4" value="1.000.000 - 2.000.000"><label for="gia4">1.000.000 - 2.000.000</label></li>
-              <li><input type="checkbox" id="gia5" value="2.000.000 trở lên"><label for="gia5">2.000.000 trở lên</label></li>
-            </ul>
-          </div>
-      </div> --> 
+  <div class="category_sidebar_expended">
+    <img src="storeimgs/category_expend.png" class="category_expended">
+    <!-- <img src="storeimgs/menu_expend.png" class="menu_expended"> -->
+    <a href="store.html">
+        <p style="padding-left:0px!important;">☰ Danh sách sản phẩm</p>
+    </a>
+    <p style="padding-left:0px!important;">&emsp;&#9679; Bộ trà</p>
+    <p style="padding-left:0px!important;">&emsp;&#9679; Tô và dĩa</p>
+    <p style="padding-left:0px!important;">&emsp;&#9679; Bộ đồ ăn</p>
+    <p style="padding-left:0px!important;">&emsp;&#9679; Bình hoa</p>
+    <p style="padding-left:0px!important;">&emsp;&#9679; Đồ trang trí</p>
+    <p style="padding-left:0px!important;">&emsp;&#9679; Niêu đất</p>
+    <br>
+    <br>
+    <p style="padding-left:0px!important;">&emsp;▢ 100.000 - 300.000</p>
+    <p style="padding-left:0px!important;">&emsp;▢ 300.000 - 500.000</p>
+    <p style="padding-left:0px!important;">&emsp;▢ 500.000 - 1.000.000</p>
+    <p style="padding-left:0px!important;">&emsp;▢ 1.000.000 - 2.000.000</p>
+    <p style="padding-left:0px!important;">&emsp;▢ 2.000.000 trở lên</p>
   </div>
 
   <!-- SLIDER NEW PRODUCTS -->
@@ -84,10 +74,17 @@
         </div>
         <div class="mySlides2 fade2">
             <div class="row2">
-                <div class="newproduct">
-                    <img src="storeimgs/rectangle67.png" class="gom1">
-                    <img src="storeimgs/text_rectangle67.png" class="gom1_text">
-                </div>
+                <a href="product_details.html">
+                    <div class="newproduct">
+                        <div class="container_img">
+                            <img src="storeimgs/rectangle67.png" class="gom1" alt="Gomsu">
+                            <div class="middle">
+                                <img src="storeimgs/union_product.png" class="text">
+                            </div>
+                        </div>
+                        <img src="storeimgs/text_rectangle67.png" class="gom1_text">
+                    </div>
+                </a>
                 <div class="newproduct">
                     <img src="storeimgs/rectangle68.png" class="gom2">
                     <img src="storeimgs/text_rectangle68.png" class="gom2_text">
