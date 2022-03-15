@@ -1,0 +1,640 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.header_homepage{
+  box-sizing:border-box;
+  background-color: #001427;
+  margin: 0;
+  padding:0;
+}
+
+.navbar{
+  display:flex;
+  align-items:center;
+  padding:77px;
+  padding-top: 40px;
+  background: transparent;
+}
+
+.logo{
+  /* padding-left:100px !important; */
+  background: transparent;
+  /* width: 82px; */
+}
+
+nav{
+  flex:1;
+  text-align:right;
+  background: transparent;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+nav ul{
+  display:inline-block;
+  list-style-type: none;
+  background: transparent;
+}
+
+nav ul li{
+  display:inline-block;
+  margin-right:70px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+}
+
+nav ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f4d58d;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after{
+  width:100%;
+}
+
+a{
+  text-decoration: none;
+  color: #f4d58d;
+  background: transparent;
+}
+
+p{
+  padding-top:20px;
+  padding-left:430px;
+  padding-right:430px;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transform: rotate(-0.16deg);
+}
+
+.container{
+  max-width:1300px;
+  margin:auto;
+  padding-left:25px;
+  padding-right:25px;
+  background: transparent;
+}
+
+.row{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  background: transparent;
+}
+
+/*--------------------------------SLIDERS -------------------------------*/
+
+/* Slideshow container */
+.slideshow-container {
+/* max-width: 1000px; */
+position: relative;
+margin: auto;
+background-color: #001427;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 32%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #F4D58D;
+  font-weight: bold;
+  font-size: 48px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+/* background-color: rgba(0,0,0,0.8); */
+}
+
+.img_gom1{
+  width:40%; 
+  margin-left:50px; 
+  padding-left:250px;
+  background-blend-mode: lighten;
+  /*filter: drop-shadow(53px 4px 47px rgba(0, 0, 0, 0.3));*/
+}
+
+/* Caption text */
+.text {
+  padding: 100px 12px;
+  padding-left: 300px!important;
+  position: absolute;
+  /* bottom: 8px; */
+  top: 28px;
+  width: 100%;
+  text-align: center;
+}
+
+.img_gomsubattrang{
+}
+
+.p_sec2{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 380px;
+  margin-left: 0px;
+  padding-right: 250px;
+  text-align: left;
+  /* margin-left: 643.74px; */
+}
+
+.btn_xemthem {  
+  font-family: 'PT Serif Caption', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+  color: #f4d58d;
+  transform: rotate(-0.16deg);
+  border: 2px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color:transparent;
+  margin-top: 25.36px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right:20px;
+}
+
+.btn_sanpham {
+  font-family: 'PT Serif Caption', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #f4d58d;
+  transform: rotate(-0.16deg);
+  border: 2px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color:transparent;
+  margin-top: 25.36px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dots{
+  /* max-width: 1000px; */
+position: relative;
+margin: auto;
+background-color: #001427;
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: transparent;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+
+border: 1px solid #F4D58D;
+box-sizing: border-box;
+
+}
+
+.active, .dot:hover {
+background-color: #F4D58D;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+/*----------------------------nguon goc----------------------------------*/
+
+.nguongoc_homepage{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* margin-top:10px; */
+}
+
+.homepage_nguongoc{
+  background-color: #6D0500;
+}
+
+.row-1st{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.col-1{
+  flex-basis:50%;
+  min-width:100px;
+  padding-left: 10px;
+  text-align: right;
+}
+
+.col-1 img{
+  max-width:80%;
+  padding:20px 0;
+}
+
+.p_nguongoc{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+  padding-right: 0px;
+  /* display: flex;
+  align-items: center; */
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.collapsible{
+  font-family: 'PT Serif Caption', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: right;
+  color: #f4d58d;
+  transform: rotate(-0.16deg);
+  border: 2px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color:transparent;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 5px;
+  padding-left: 5px;
+  /* margin-left: 620px; */
+}
+
+.row-2nd{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.col-2 img{
+  max-width:80%;
+  padding:20px 0;
+}
+
+.col-2{
+  flex-basis:50%;
+  min-width:100px;
+  /* padding-left: 10px;
+  text-align: right; */
+}
+
+.col-2 p{
+  text-align: left;
+  padding-right: 20px;
+}
+
+.row-3rd{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.col-3{
+  flex-basis:50%;
+  min-width:100px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.col-3 img{
+  max-width:100%;
+  padding:20px 0;
+  padding-left:150px;
+}
+
+/*----------------------------dac diem----------------------------------*/
+
+.dacdiem_homepage{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* margin-top:10px; */
+}
+
+.homepage_dacdiem{
+  background-color: #708D81;
+}
+
+.dacdiem_row-1st{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.dacdiem_col-1 img{
+  max-width:80%;
+  padding:20px 0;
+}
+
+.dacdiem_col-1{
+  flex-basis:50%;
+  min-width:100px;
+  /* padding-left: 10px;
+  text-align: right; */
+}
+
+.dacdiem_col-1 p{
+  text-align: left;
+  padding-right: 20px;
+}
+
+.dacdiem_h3_dacdiem{
+  font-family: 'Puppies Play', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: right;
+  color: #F4D58D;
+  padding-right: 550px;
+}
+
+.dacdiem_p_dacdiem{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #FFFFFF;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.dacdiem_collapsible{
+  font-family: 'PT Serif Caption', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: right;
+  color: #f4d58d;
+  transform: rotate(-0.16deg);
+  border: 2px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color:transparent;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 5px;
+  padding-left: 5px;
+  /* margin-left: 620px; */
+}
+
+/*---------------------------hinh anh-----------------------------------*/
+.slideshow-container2 {
+  position: relative;
+  margin: auto;
+  background-color: #001427;
+}
+
+.mySlides2 {
+  display: none;
+}
+
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 32%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #F4D58D;
+  font-weight: bold;
+  font-size: 48px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  padding-top: 150px;
+}
+
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev2:hover, .next2:hover {
+  /* background-color: rgba(0,0,0,0.8); */
+}
+
+.dots2{
+  position: relative;
+  margin: auto;
+  background-color: #001427;
+}
+
+.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border: 1px solid #F4D58D;
+  box-sizing: border-box;
+}
+
+.active, .dot2:hover {
+  background-color: #F4D58D;
+}
+
+.fade2 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade2 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade2 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.hinhanh_homepage{box-sizing:border-box;
+  background-color: #001427;
+}
+
+/* .homepage-hinhanh{
+  margin-left: 600px;
+  font-family: 'Puppies Play', cursive;
+  font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 62px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F4D58D;
+} */
+
+/* .slideshow-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ */
+
+.text_hinhanh{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */ 
+  padding-top: 100px;
+  padding-left:655px;
+  padding-bottom: 50px;
+}
+
+.gom1{
+  margin-left: 230px;
+} 
+
+.gom1,.gom2,.gom3,.gom4{
+  width: 250px;
+}
+
+/*------------------------------FOOTER---------------------------*/
+.footer_homepage{
+  background-color: #1C2A3D;
+}
+
+.footer_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom:30px;
+}
+
+.footer_nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.footer_nav h2{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.footer_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer_icons img{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer_copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}

@@ -1,0 +1,127 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-image:url("/image/start.png");
+}
+
+body{
+
+}
+
+.navbar{
+  display:flex;
+  align-items:center;
+  padding:77px;
+  background: transparent;
+}
+
+.logo{
+  padding-left:100px !important;
+  background: transparent;
+}
+
+nav{
+  flex:1;
+  text-align:right;
+  background: transparent;
+}
+
+nav ul{
+  display:inline-block;
+  list-style-type: none;
+  background: transparent;
+}
+
+nav ul li{
+  display:inline-block;
+  margin-right:70px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+}
+
+nav ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f4d58d;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after{
+  width:100%;
+}
+
+a{
+  text-decoration: none;
+  color: #f4d58d;
+  background: transparent;
+}
+
+p{
+  padding-top:20px;
+  padding-left:430px;
+  padding-right:430px;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+transform: rotate(-0.16deg);
+}
+
+.container{
+  max-width:1300px;
+  margin:auto;
+  padding-left:25px;
+  padding-right:25px;
+  background: transparent;
+}
+
+.row{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  background: transparent;
+}
+
+.langsom{
+  padding-left: 450px;
+  background: transparent;
+}
+
+.btn_startingpage{
+  margin-left: 663.8px;
+  margin-top: 25.36px;
+  margin-bottom:25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'PT Serif Caption', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #f4d58d;
+  transform: rotate(-0.16deg);
+  border: 3px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 35px;
+  background:transparent;
+}
