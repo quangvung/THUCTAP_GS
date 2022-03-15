@@ -104,11 +104,426 @@
     background: transparent;
   }
   
-  /*--------------------------------  -------------------------------*/
+  /*-------------------------------- DETAILS -------------------------------*/
+  .product_details_page{
+    background-color: #001427;
+  }
+  .category{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .details{
+    box-sizing: border-box;
+    background-color: #001427;
+    padding-left: 200px;
+    padding-right: 150px;
+  }
   
+  .row-1st{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding-bottom: 100px;
+  }
   
+  .col-1{
+    flex-basis:50%;
+    min-width:100px;
+    text-align: left;
+  }
+
+  .lineofsmallimgs img{
+    width: 140px;
+  }
   
+  .soluong{
+    position: absolute;
+    margin-top: 11px;
+  }
+
+  .minus, .plus{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #F4D58D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:#F4D58D;
+  }
+
+  .minus{
+    margin-left: 110px;
+    margin-right:5px;
+  }
+
+  .plus{
+    margin-right:20px;
+  }
+
+  .cart{
+    position: absolute;
+    margin-left: 25px;
+  }
+
+  .bag{
+    position: absolute;
+    margin-left: 80px;
+  }
+
+  .lineofquantities, .lineofratings{
+    padding-top: 10px;
+  }
+
+  .star{
+    width: 30px;
+    margin-right: 5px;
+  }
+
+  /*------------------------------ PRODUCT DESCRIPTION & INFORMATION ---------------------------*/
+
+  .description_title{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .product_description_red{
+    position: absolute;
+    width: 1300px;
+    left: 100px;
+  }
+
+  .information{
+    margin-top: 180px;
+    padding-bottom: 100px;
+  }
+
+  table{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 554px;
+    height: 204px;
+    font-size: 20px;
+  }
+
+  th,td{
+    border: 1px solid white;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /*------------------------------ SLIDERS SAN PHAM CUNG THUONG HIEU ---------------------------*/
+  .newproducts{
+    box-sizing:border-box;
+    background-color: #001427;
+  }
   
+  .slideshow-container2 {
+    position: relative;
+    margin: auto;
+    background-color: #001427;
+  }
+  
+  .sanphammoi_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mySlides2 {
+    display: none;
+  }
+  
+  .row2{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+  }
+  
+  .newproduct{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    transition: transform 0.5s;
+  }
+  
+  .newproduct .gom1, .newproduct .gom2, .newproduct .gom3, .newproduct .gom4{
+    text-align: center;
+    width: 188px;
+    margin-left: 50px;
+  }
+  
+  .newproduct .text_gom1, .newproduct .text_gom2, .newproduct .text_gom3, .newproduct .text_gom4{
+    text-align: center;
+    width: 100px;
+  }
+  
+  .prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 32%;
+    width: auto;
+    margin-top: -22px;
+    color: #F4D58D;
+    font-weight: bold;
+    font-size: 48px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    padding-top: 50px;
+  }
+  
+  .next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: -70px;
+  }
+  
+  .prev2{
+    margin-left: -60px;
+  }
+  
+  .prev2:hover, .next2:hover {
+    /* background-color: rgba(0,0,0,0.8); */
+  }
+  
+  .dots2{
+    position: relative;
+    margin: auto;
+    background-color: #001427;
+  }
+  
+  .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border: 1px solid #F4D58D;
+    box-sizing: border-box;
+  }
+  
+  .active, .dot2:hover {
+    background-color: #F4D58D;
+  }
+  
+  .fade2 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade2 {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade2 {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+/*-------------------------------- SLIDERS SAN PHAM CUNG DANH MUC ------------------------------------------------*/
+
+.bestsellerproducts{
+  box-sizing:border-box;
+  background-color: #001427;
+}
+
+.slideshow-container1 {
+  position: relative;
+  margin: auto;
+  background-color: #001427;
+}
+
+.sanphambanchay_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mySlides1 {
+  display: none;
+}
+
+.gom11{
+  width: 1100px;
+  padding-left: 30px;
+}
+
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 32%;
+  width: auto;
+  margin-top: -22px;
+  /* padding: 0px; */
+  color: #F4D58D;
+  font-weight: bold;
+  font-size: 48px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  padding-top: 50px;
+}
+
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: -40px;
+}
+
+.prev1{
+  margin-left: -65px;
+}
+
+.prev1:hover, .next1:hover {
+  /* background-color: rgba(0,0,0,0.8); */
+}
+
+.dots1{
+  position: relative;
+  margin: auto;
+  background-color: #001427;
+}
+
+.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border: 1px solid #F4D58D;
+  box-sizing: border-box;
+}
+
+.active, .dot1:hover {
+  background-color: #F4D58D;
+}
+
+.fade1 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade1 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade1 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*-------------------------------- SLIDERS SAN PHAM DA XEM ------------------------------------------------*/
+
+.sawproducts{
+  box-sizing:border-box;
+  background-color: #001427;
+}
+
+.slideshow-container3 {
+  position: relative;
+  margin: auto;
+  background-color: #001427;
+}
+
+.mySlides3 {
+  display: none;
+}
+
+.gom33{
+  width: 1100px;
+  padding-left: 30px;
+}
+
+.prev3, .next3 {
+  cursor: pointer;
+  position: absolute;
+  top: 32%;
+  width: auto;
+  margin-top: -22px;
+  /* padding: 0px; */
+  color: #F4D58D;
+  font-weight: bold;
+  font-size: 48px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  padding-top: 50px;
+}
+
+.next3 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: -40px;
+}
+
+.prev3{
+  margin-left: -65px;
+}
+
+.prev3:hover, .next3:hover {
+  /* background-color: rgba(0,0,0,0.8); */
+}
+
+.dots3{
+  position: relative;
+  margin: auto;
+  background-color: #001427;
+}
+
+.dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border: 1px solid #F4D58D;
+  box-sizing: border-box;
+}
+
+.active, .dot3:hover {
+  background-color: #F4D58D;
+}
+
+.fade3 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade3 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade3 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
   
   /*------------------------------FOOTER---------------------------*/
   .footer_homepage{
