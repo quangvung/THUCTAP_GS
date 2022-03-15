@@ -1,0 +1,313 @@
+* {box-sizing:border-box;
+    background-color: #001427;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  margin: auto;
+  background-color: #001427;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #F4D58D;
+  font-weight: bold;
+  font-size: 48px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text_gomsubattrang{
+    /* position: absolute;
+  width: 429.49px;
+  height: 114px;
+  left: 869.86px;
+  top: 450px; */
+  padding-left:750px;
+
+  /* font-family: UTM Davida; */
+  font-family: 'Puppies Play', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  display: flex;
+  align-items: center;
+  color: #f4d58d;
+}
+
+.p_sec2{
+    /* position: absolute;
+  width: 607.89px;
+  height: 103px;
+  left: 869.86px;
+  top: 528px; */
+
+  /* font-family: Montserrat; */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  margin-left: 643.74px;
+  /* margin-top: 20.36px; */
+
+}
+
+.btn_xemthem {  
+    /* font-family: SVN-Aptima; */
+    font-family: 'PT Serif Caption', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #f4d58d;
+    transform: rotate(-0.16deg);
+    border: 2px solid #F4D58D;
+    box-sizing: border-box;
+    border-radius: 35px;
+    background-color:transparent;
+    margin-left: 663.8px;
+    margin-top: 25.36px;
+    margin-bottom:25px;
+  }
+  
+  .btn_sanpham {
+    font-family: 'PT Serif Caption', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #f4d58d;
+    transform: rotate(-0.16deg);
+    border: 2px solid #F4D58D;
+    box-sizing: border-box;
+    border-radius: 35px;
+    background-color:transparent;
+    margin-left: 663.8px;
+    margin-top: 25.36px;
+    margin-bottom:25px;
+  }
+
+/* The dots/bullets/indicators */
+.dots{
+    /* max-width: 1000px; */
+  position: relative;
+  margin: auto;
+  background-color: #001427;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+  border: 1px solid #F4D58D;
+  box-sizing: border-box;
+
+}
+
+.active, .dot:hover {
+  background-color: #F4D58D;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.img_gom1{
+    width:30%; 
+    margin-left:50px; 
+    padding-left:100px;
+    background-blend-mode: lighten;
+    /*filter: drop-shadow(53px 4px 47px rgba(0, 0, 0, 0.3));*/
+}
+
+/* ------------ slide báo trên -------------- */
+/* .small-container{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+
+    background-color:rgb(26,43,60);
+    border: 0.75px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(40px);
+    border-radius: 59px;
+} */
+
+.table1{
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-right: 100px;
+  background-color:rgb(26,43,60);
+  border: 0.75px solid #FFFFFF;
+  box-sizing: border-box;
+  backdrop-filter: blur(40px);
+  border-radius: 30px;
+  height: 401.6px;
+}
+
+.table1a{
+  padding-left:15px;
+  border-radius: 30px;
+  background-color:rgb(26,43,60);
+}
+
+.table1a tr td h3{
+  font-family: 'Montserrat', sans-serif;
+  padding-top:60px;
+  margin-left: 20px;
+  font-size: 26px;
+  line-height: 44px;
+}
+.table1a tr td h4{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: 44px;
+}
+
+.table1a tr td h5{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 44px;
+}
+
+.table1b{
+  background-color:rgb(26,43,60);
+}
+
+.table1b tr td h4{
+  font-family: 'Montserrat', sans-serif;
+  padding-top:100px;
+  margin-left: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.table1b tr td h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.btn_xemthemm{
+  font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+background-color:transparent;
+color: #F4D58D;
+border: none;
+}
+
+.table2 h3{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.table2 small{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.table2 .tdtext{
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+.table2 .tdimg{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-btn{
+  margin:0 auto 10px;
+  text-align:center;
+}
+
+.page-btn span{
+  display: inline-block;
+    border: 1px solid #F4D58D;
+    color: #F4D58D;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+  background:#F4D58D;
+  color:white;
+}
