@@ -1,0 +1,98 @@
+.cart_page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+/* .header {
+  position: relative;
+} */
+
+/* nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+} */
+
+/* nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ */
+/* li a {
+  padding: 5px;
+  text-decoration: none;
+} */
+
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+} */
+
+.text_giohang {
+  font-family: "Davida Bold", sans-serif;
+  font-family: "Davida", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  color: #f4d58d;
+}
+
+.cart_info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.td {
+  padding: 10px 5px;
+}
+
+.td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+.text_camon {
+  width: 1000px;
+  height: 264px;
+  left: 636px;
+  top: 408px;
+  font-family: "Davida Bold", sans-serif;
+  font-family: "Davida", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 124px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #f4d58d;
+}
+
+.text_tieptucmuasam {
+  width: 242px;
+  height: 29px;
+  left: 838.95px;
+  top: 727px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #f4d58d;
+}
