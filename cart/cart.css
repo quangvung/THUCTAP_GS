@@ -2,6 +2,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  background-color: #001427;
 }
 
 .header_homepage{
@@ -114,6 +115,55 @@ p{
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 50px;
+}
+
+.rectangle{
+  position: relative;
+  background-color: #001427;
+}
+
+.yellowrec{
+  width: 1250px;
+  position: absolute;
+  background: transparent;
+}
+
+.total{
+  position: absolute;
+  background: transparent;
+  padding-top: 40px;
+}
+
+.checkbox{
+  width: 32px; 
+  height: 32px; 
+  color: #001427;
+  border: 2px solid #001427;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background: transparent;
+  font-size:20px;
+  position:absolute;
+  margin-left: 120px;
+}
+
+.selectall{
+  position:absolute;
+  margin-left: 180px;
+  background: transparent;
+}
+
+.totalcost{
+  position:absolute;
+  margin-left: 500px;
+  background: transparent;
+}
+
+.contbutt{
+  position:absolute;
+  margin-left: 990px;
+  background: transparent;
+  margin-top: -10px;
 }
 
 /* iframe{
