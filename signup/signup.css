@@ -2,7 +2,6 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: #001427;
 }
 
 .header_homepage{
@@ -108,60 +107,133 @@ p{
   background: transparent;
 }
 
-/*-------------------------------- CART -------------------------------*/
-.giohang{
+/*-------------------------------- SIGN UP -------------------------------*/
+
+.dangky{
   box-sizing: border-box;
   background-color: #001427;
   padding-left: 150px;
   padding-right: 150px;
-  padding-top: 50px;
 }
 
-.rectangle{
+.row-1st{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.col-1{
+  flex-basis:50%;
+  min-width:100px;
+  text-align: center;
+  align-items:center;
+}
+  
+.username{
   position: relative;
-  background-color: #001427;
+  width: 380px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: transparent;
+  font-size: 22px;
+  line-height: 34px;
+  transform: rotate(-0.16deg);
+  border: 3px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left:17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.yellowrec{
-  width: 1250px;
+.mail{
   position: absolute;
-  background: transparent;
+  width: 35px;
+  margin-top: 32px;
+  margin-left:-45px;
 }
 
-.total{
+.password{
+  position: relative;
+  width: 380px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: transparent;
+  font-size: 22px;
+  line-height: 34px;
+  transform: rotate(-0.16deg);
+  border: 3px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left:17px;
+  margin-bottom: 20px;
+}
+
+.not_eye{
   position: absolute;
-  background: transparent;
-  padding-top: 40px;
+  width: 35px;
+  margin-top: 12px;
+  margin-left:-45px;
+}
+
+.password2{
+  position: relative;
+  width: 380px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: transparent;
+  font-size: 22px;
+  line-height: 34px;
+  transform: rotate(-0.16deg);
+  border: 3px solid #F4D58D;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left:17px;
+  margin-bottom: 0px;
+}
+
+.eye{
+  position: absolute;
+  width: 35px;
+  margin-top: 14px;
+  margin-left:-45px;
+}
+
+.img_another_signin{
+  width: 150px;
+  padding-bottom: 20px;
 }
 
 .checkbox{
   width: 32px; 
   height: 32px; 
   color: #001427;
-  border: 2px solid #001427;
+  border: 2px solid #F4D58D;
   box-sizing: border-box;
   border-radius: 7px;
   background: transparent;
   font-size:20px;
-  position:absolute;
-  margin-left: 120px;
+  margin-right: 10px;
 }
 
-.selectall{
-  position:absolute;
-  margin-left: 180px;
-  background: transparent;
+.remember_password{
+  margin-right: 220px;
 }
 
-.totalcost{
-  position:absolute;
-  margin-left: 500px;
-  background: transparent;
+.signup_button{
+  padding-top: 10px;
 }
 
-.contbutt{
-  position:absolute;
-  margin-left: 990px;
-  background: transparent;
-  margin-top: -10px;
-}

@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #001427;
+  }
+  
+  .header_homepage{
+    box-sizing:border-box;
+    background-color: #001427;
+    margin: 0;
+    padding:0;
+  }
+  
+  .navbar{
+    display:flex;
+    align-items:center;
+    padding:77px;
+    padding-top: 40px;
+    background: transparent;
+    padding-bottom: 30px;
+  }
+  
+  .logo{
+    /* padding-left:100px !important; */
+    background: transparent;
+    /* width: 82px; */
+  }
+  
+  nav{
+    flex:1;
+    text-align:right;
+    background: transparent;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  nav ul{
+    display:inline-block;
+    list-style-type: none;
+    background: transparent;
+  }
+  
+  nav ul li{
+    display:inline-block;
+    margin-right:70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+  }
+  
+  nav ul li::after{
+    content: '';
+      width: 0%;
+      height: 2px;
+      background: #f4d58d;
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+  }
+  
+  nav ul li:hover::after{
+    width:100%;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #f4d58d;
+    background: transparent;
+  }
+  
+  p{
+    padding-top:20px;
+    padding-left:430px;
+    padding-right:430px;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    transform: rotate(-0.16deg);
+  }
+  
+  .container{
+    max-width:1300px;
+    margin:auto;
+    padding-left:25px;
+    padding-right:25px;
+    background: transparent;
+  }
+  
+  .row{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    background: transparent;
+  }
+  
+  /*-------------------------------- PAYMENT -------------------------------*/
+  .thanhtoan{
+    box-sizing: border-box;
+    background-color: #001427;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+  }
+
+  .row-1st{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+  }
+
+  .col-1{
+    flex-basis:60%;
+    min-width:100px;
+    text-align: left;
+  }
+
+  .col-2{
+    flex-basis:40%;
+    min-width:100px;
+    text-align: left;
+  }
+
+  .address{
+    /* position: relative; */
+    width: 380px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-size: 22px;
+    line-height: 34px;
+    transform: rotate(-0.16deg);
+    border: 3px solid #F4D58D;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-left:17px;
+    margin-bottom: 20px;
+  }
+
+  .checkbox{
+    width: 32px; 
+    height: 32px; 
+    color: #001427;
+    border: 2px solid #F4D58D;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background: transparent;
+    font-size:20px;
+  }
+
+  .lineofcreditcard{
+    position: relative;
+    padding-bottom: 40px;
+  }
+
+  .usecreditcard{
+    position: absolute;
+    width: 200px;
+    padding-top: 5px;
+    padding-left: 20px;
+  }
+
+  .lineofbtnbag{
+      position: relative;
+      padding-bottom: 17px;
+  }
+
+  .icon_bag{
+      position: absolute;
+      width:45px;
+  }
+
+  .btn_chapnhanthanhtoan{
+      width: 300px;
+      padding-left: 70px;
+  }
+
+  .lineofbtncart{
+    position: relative;
+  }
+
+  .icon_cart{
+    position: absolute;
+    width:45px;
+  }
+
+  .btn_quaytrolaigiohang{
+    width: 300px;
+      padding-left: 70px;
+  }
+
+  .total{
+      padding-top: 20px;
+  }
