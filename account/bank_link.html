@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bank_link.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header" style="background-color: #001427;">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo" style="background: transparent;">
+                    <a href="index.html">
+                        <img src="/image/logo_header.png" width="82px" style="background: transparent;">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/home/home.html">Trang chủ</a></li>
+                        <li><a href="/intro/intro.html">Giới thiệu</a></li>
+                        <li><a href="/contact/contact.html">Liên hệ</a></li>
+                        <li><a href="store/store.html">Cửa hàng</a></li>
+                    </ul>
+                </nav>
+                <a href="quanlitaikhoan/quanlitaikhoan.html">
+                    <!-- <i class="fa fa-user-circle-o" style="color:#f4d58d"></i> -->
+                    <img src="/image/user.png" width="65px" style="padding-right:25px; background: transparent;">
+                </a>
+                <a href="cart/cart.html">
+                    <!-- <i class="fa fa-shopping-cart" style="color:#f4d58d"></i> -->
+                    <img src="/image/icon.png" width="41px" style="background: transparent;">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="lienketnganhang">
+        <div class="container">
+            <div class="left">
+                <img src="/image/qltk.png" class="qltk">
+                <nav>
+                    <a href="/account/account_info.html" onclick="tabs(0)" class="tab">
+                        THÔNG TIN TÀI KHOẢN
+                    </a>
+                    <br>
+                    <a href="/account/bank_link.html" onclick="tabs(1)" class="tab1">
+                        LIÊN KẾT NGÂN HÀNG
+                    </a>
+                    <br>
+                    <a href="/account/follow.html" onclick="tabs(2)" class="tab2">
+                        ĐƠN HÀNG CỦA TÔI
+                    </a>
+                </nav>
+            </div>
+
+            <div class="right">
+                <div class="lknh">
+                    <h1 class="text_lknh">LIÊN KẾT NGÂN HÀNG </h1>
+                    <h3 class="tennganhang">Tên ngân hàng</h3>
+                    <select class="combobox1">
+                        <option value="Select">Vietcombank</option>
+                        <option value="Vietcombank">Vietcombank</option>
+                        <option value="BIDV">BIDV</option>
+                        <option value="MB BANK">MB BANK</option>
+                    </select>
+                    <h3 class="loaithe">Loại thẻ</h3>
+                    <select class="combobox2">
+                        <option value="Select">VISA</option>
+                        <option value="VISA">VISA</option>
+                        <option value="Mastercard">Mastercard</option>
+                        <option value="Mastercard">Mastercard</option>
+                    </select>
+                    <h3 class="stk">Số tài khoản / Thẻ</h3>
+                    <input type="text" class="sotaikhoan">
+                    <img src="/image/pencil-create.png" class="pencil">
+                    <h3 class="hoten">Họ tên chủ thẻ</h3>
+                    <input type="text" class="hotenchuthe">
+                    <img src="/image/pencil-create.png" class="pen">
+                    <h3 class="ngayphathanh">Ngày phát hành</h3>
+                    <input type="text" class="month_year" id="inputExpDate" placeholder="Month/Year" maxlength='7'>
+                    <img src="/image/thaydoi.png" class="thaydoi" />
+                    <img src="/image/huy.png" class="huy" />
+                    <img src="/image/luu.png" class="luu" />
+                </div>
+            </div>
+
+        </div>
+</body>
+
+</html>

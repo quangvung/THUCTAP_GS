@@ -43,98 +43,20 @@
   <div class="quanlitaikhoan">
     <div class="container">
       <div class="left">
-        <h2 class="qltk"> QUẢN LÍ TÀI KHOẢN </h2>
+        <img src="/image/qltk.png" class="qltk">
         <nav>
-          <a onclick="tabs(0)" class="tab active">
-            THÔNG TIN TÀI KHOẢN
+          <a href="/account/account_info.html" onclick="tabs(0)" class="tab">
+          THÔNG TIN TÀI KHOẢN
           </a>
           <br>
-          <a onclick="tabs(1)" class="tab">
+          <a href="/account/bank_link.html" onclick="tabs(1)" class="tab1">
             LIÊN KẾT NGÂN HÀNG
           </a>
           <br>
-          <a onclick="tabs(2)" class="tab">
+          <a href="/account/follow.html" onclick="tabs(2)" class="tab2">
             ĐƠN HÀNG CỦA TÔI
           </a>
         </nav>
-      </div>
-
-      <div class="right">
-        <div class="thongtintaikhoan">
-          <h1 class="text_tttk">THÔNG TIN TÀI KHOẢN</h1>
-
-          <h3 class="tenkhachhang">Tên khách hàng</h3>
-          <input type="text" class="hovaten">
-
-          <h3 class="ngaysinh">Ngày sinh</h3>
-          <input type="day" id="start" name="trip-start" value="1" min="1" max="31">
-          <input type="month" id="start" name="trip-start" value="1" min="1" max="12">
-          <input type="year" id="start" name="trip-start" value="1" min="1990" max="2022">
-
-          <h3 class="email">Email</h3>
-          <input type="text" class="nhapemail" />
-          <i class="fa fa-pencil"></i>
-          <i class="fa fa-envelope-o"></i>
-
-          <h3 class="sdt">Số điện thoại</h3>
-          <input type="text" class="nhapsdt" />
-          <i class="fa fa-pencil"></i>
-
-          <img src="/image/huy.png" class="huy" />
-          <img src="/image/luu.png" class="luu" />
-        </div>
-
-        <div class="lienketnganhang">
-          <h1 class="text_lknh">LIÊN KẾT NGÂN HÀNG</h1>
-          <h3 class="tennganhang">Tên ngân hàng</h3>
-          <input type="text" name="nganhang" list="nganhangList">
-          <datalist id="nganhangList">
-            <option value="Vietcombank">
-            <option value="BIDV">
-            <option value="Sacombank">
-            <option value="Techcombank">
-          </datalist>
-          <h3 class="loaithe">Loại thẻ</h3>
-          <input type="text" name="the" list="theList">
-          <datalist id="theList">
-            <option value="Visa">
-            <option value="Mastercard">
-            <option value="JCB">
-          </datalist>
-          <h3 class="sotk_the">Số tài khoản / Thẻ</h3>
-          <input type="text" class="nhapsotk_the" />
-          <i class="fa fa-pencil"></i>
-          <h3 class="hotenchuthe">Họ tên chủ thẻ</h3>
-          <input type="text" class="nhaphotenchuthe" />
-          <i class="fa fa-pencil"></i>
-          <h3 class="ngayphathanh">Ngày phát hành</h3>
-          <input type="month" id="start" name="trip-start" value="1" min="1" max="12">
-          <input type="year" id="start" name="trip-start" value="1" min="1990" max="2022">
-          <h3 class="thaydoi">Thay đổi</h3>
-          <h3 class="huy">Hủy</h3>
-          <h3 class="luu">Lưu</h3>
-        </div>
-
-        <div class="theodoidonhang">
-          <h1 class="text_tddh">THEO DÕI ĐƠN HÀNG</h1>
-          <h3 class="madon"> Mã đơn: ABCXYZ123456 </h3>
-          <h3 class="dangchuanbihang">
-            Đang chuẩn bị hàng 12:00
-            Ngày 15/10/2021
-          </h3>
-          <h3 class="roikhoicuahang">
-            Rời khỏi cửa hàng 15:00
-            Ngày 15/10/2021
-          </h3>
-          <h3 class="danggiaohang">
-            Đang giao hàng 15:15
-            Ngày 15/10/2021
-          </h3>
-          <h3 class="giaohangthanhcong">
-            Giao hàng thành công 15:40
-            Ngày 15/10/2021
-          </h3>
-        </div>
       </div>
 
     </div>

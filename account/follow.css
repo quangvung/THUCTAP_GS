@@ -116,7 +116,7 @@ nav a.active {
   color: #708d81;
 }
 
-.quanlitaikhoan {
+.theodoidonhang {
   position: relative;
   width: 1822px;
   height: 900px;
@@ -141,3 +141,63 @@ nav a.active {
   left: 150px;
 }
 
+.text_tddh {
+  position: absolute;
+  top: -100px;
+  width: 587px;
+  height: 115px;
+  left: 750px;
+  font-family: "UTM Davida";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 71px;
+  display: flex;
+  align-items: center;
+  color: #f4d58d;
+}
+
+.madon {
+  position: absolute;
+  width: 352px;
+  height: 45px;
+  left: 598px;
+  top: 80px;
+  font-family: "Montserrat";
+  font-style: Regular;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.column {
+  position: absolute;
+  left: 630px;
+  top: 180px;
+}
+.madon1 {
+  position: absolute;
+  width: 352px;
+  height: 45px;
+  left: 1050px;
+  top: 80px;
+  font-family: "Montserrat";
+  font-style: Regular;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.column1 {
+  position: absolute;
+  left: 1100px;
+  top: 180px;
+}
