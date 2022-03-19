@@ -41,31 +41,31 @@
     </div>
 
     <div class="thongtintaikhoan">
-        <div class="container">
+        <div class="row1">
             <div class="left">
                 <img src="/image/qltk.png" class="qltk">
-                <nav>
-                    <a href="/account/account_info.html" onclick="tabs(0)" class="tab">
-                        THÔNG TIN TÀI KHOẢN
-                    </a>
-                    <br>
-                    <a href="/account/bank_link.html" onclick="tabs(1)" class="tab1">
-                        LIÊN KẾT NGÂN HÀNG
-                    </a>
-                    <br>
-                    <a href="/account/follow.html" onclick="tabs(2)" class="tab2">
-                        ĐƠN HÀNG CỦA TÔI
-                    </a>
+                <nav class="nav" style="text-align: left!important;">
+                  <a href="/account/account_info.html" onclick="tabs(0)" class="tab">
+                  THÔNG TIN TÀI KHOẢN
+                  </a>
+                  <br>
+                  <a href="/account/bank_link.html" onclick="tabs(1)" class="tab1">
+                    LIÊN KẾT NGÂN HÀNG
+                  </a>
+                  <br>
+                  <a href="/account/follow.html" onclick="tabs(2)" class="tab2">
+                    ĐƠN HÀNG CỦA TÔI
+                  </a>
                 </nav>
-            </div>
+              </div>
 
             <div class="right">
                 <div class="tttk">
-                    <h1 class="text_tttk">THÔNG TIN TÀI KHOẢN</h1>
-
+                    <div class="tttk1">
+                        <img src="tttk_text.png">
+                    </div>
                     <h3 class="tenkhachhang">Tên khách hàng</h3>
                     <input type="text" class="hovaten">
-
                     <h3 class="ngaysinh">Ngày sinh</h3>
                     <div class="date">
                         <select class="combobox">
@@ -100,7 +100,7 @@
                             <option value="28">28</option>
                         </select>
 
-                        <select class="combobox">
+                        <select class="combobox" style="margin-left:10px; margin-right:10px;">
                             <option value="Select">Tháng</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -142,16 +142,22 @@
                         </select>
                     </div>
                     <h3 class="email">Email</h3>
-                    <input type="text" class="nhapemail" />
-                    <img src="/image/pencil-create.png" class="pencil">
-                    <img src="/image/icon_mail.png" class="mail">
+                    <div class="lineofemail">
+                        <input type="text" class="nhapemail" />
+                        <img src="/image/pencil-create.png" class="pencil">
+                        <img src="/image/icon_mail.png" class="mail">
+                    </div>
 
                     <h3 class="sdt">Số điện thoại</h3>
-                    <input type="text" class="nhapsdt" />
-                    <img src="/image/pencil-create.png" class="pen">
+                    <div class="lineofphone">
+                        <input type="text" class="nhapsdt" />
+                        <img src="/image/pencil-create.png" class="pen">
+                    </div>
 
-                    <img src="/image/huy.png" class="huy" />
+                    <div class="lineofbuttons">
+                        <img src="/image/huy.png" class="huy" />
                     <img src="/image/luu.png" class="luu" />
+                    </div>
 
                 </div>
 
