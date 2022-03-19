@@ -203,6 +203,10 @@ transform: rotate(-0.16deg);
   .prev, .next {
       display: none;
   }
+
+  .notdisplay{
+    display: block;
+  }
 }
 
 
