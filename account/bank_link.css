@@ -1,50 +1,50 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   background: #001427;
 }
 
-.header_homepage{
-  box-sizing:border-box;
+.header_homepage {
+  box-sizing: border-box;
   background-color: #001427;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-.navbar{
-  display:flex;
-  align-items:center;
-  padding:77px;
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 77px;
   padding-top: 40px;
   background: transparent;
 }
 
-.logo{
+.logo {
   /* padding-left:100px !important; */
   background: transparent;
   /* width: 82px; */
 }
 
-nav{
-  flex:1;
-  text-align:right;
+nav {
+  flex: 1;
+  text-align: right;
   background: transparent;
   padding-top: 30px;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-nav ul{
-  display:inline-block;
+nav ul {
+  display: inline-block;
   list-style-type: none;
   background: transparent;
 }
 
-nav ul li{
-  display:inline-block;
-  margin-right:70px;
-  font-family: 'Montserrat', sans-serif;
+nav ul li {
+  display: inline-block;
+  margin-right: 70px;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -54,8 +54,8 @@ nav ul li{
   background: transparent;
 }
 
-nav ul li::after{
-  content: '';
+nav ul li::after {
+  content: "";
   width: 0%;
   height: 2px;
   background: #f4d58d;
@@ -64,22 +64,22 @@ nav ul li::after{
   transition: 0.5s;
 }
 
-nav ul li:hover::after{
-  width:100%;
+nav ul li:hover::after {
+  width: 100%;
 }
 
-a{
+a {
   text-decoration: none;
   color: #f4d58d;
   background: transparent;
 }
 
-p{
-  padding-top:20px;
-  padding-left:430px;
-  padding-right:430px;
+p {
+  padding-top: 20px;
+  padding-left: 430px;
+  padding-right: 430px;
   background: transparent;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -87,35 +87,47 @@ p{
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   transform: rotate(-0.16deg);
 }
 
-.container{
-  max-width:1300px;
-  margin:auto;
-  padding-left:25px;
-  padding-right:25px;
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
   background: transparent;
 }
 
-.row{
-  display:flex;
-  align-items:center;
-  flex-wrap:wrap;
-  justify-content:space-around;
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background: transparent;
 }
 
-/*----------------------------------------*/
+/*-------------------------------*/
 
-/* .left {
-      position: absolute;
-      width: 626px;
-      height: 644px;
-      left: 10px;
-      top: 50px;
-    } */
+.row1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.left {
+  flex-basis: 50%;
+  min-width: 100px;
+  text-align: left;
+  padding-left: 200px;
+}
+
+.right {
+  flex-basis: 50%;
+  min-width: 100px;
+  text-align: left;
+}
 
 .nav a {
   list-style: none;
@@ -138,55 +150,30 @@ p{
   color: #708d81;
 }
 
-.quanlitaikhoan {
-  /* position: relative;
-  width: 1822px;
-  height: 900px; */
+.lienketnganhang {
   background: #001427;
 }
 
 .tab {
-  /* position: absolute;
-  top: 180px;
-  left: 150px; */
 }
 
 .tab1 {
-  /* position: absolute;
-  top: 240px;
-  left: 150px; */
 }
 
 .tab2 {
-  /* position: absolute;
-  top: 300px;
-  left: 150px; */
 }
 
-
-
-.text_lknh {
-  position: absolute;
-  top: -50px;
-  width: 587px;
-  height: 115px;
-  left: 750px;
-  font-family: "UTM Davida";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55px;
-  line-height: 71px;
-  display: flex;
-  align-items: center;
-  color: #f4d58d;
+.lknh .combobox1,
+.lknh .hotenchuthe
+{
+  width: 550px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .tennganhang {
-  position: absolute;
   width: 252.33px;
   height: 40.6px;
-  left: 650px;
-  top: 90px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -198,18 +185,15 @@ p{
 }
 
 .combobox1 {
-  position: absolute;
-  padding: 8px;
-  left: 650px;
-  top: 160px;
-  width: 700px;
   height: 60px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   color: #ffffff;
   font-size: 25px;
   line-height: 22px;
+  display: flex;
+  align-items: center;
   transform: rotate(-0.16deg);
   border: 5px solid #f4d58d;
   box-sizing: border-box;
@@ -217,12 +201,11 @@ p{
   background-color: transparent;
 }
 
+.loaistk_the{
+}
 .loaithe {
-  position: absolute;
-  width: 200px;
-  height: 40px;
-  left: 650px;
-  top: 210px;
+  width: 196.25px;
+  height: 40.6px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -234,13 +217,10 @@ p{
 }
 
 .combobox2 {
-  position: absolute;
   padding: 8px;
-  left: 650px;
-  top: 280px;
-  width: 140px;
+  width: 142px;
   height: 60px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   color: #ffffff;
@@ -253,12 +233,12 @@ p{
   background-color: transparent;
 }
 
-.stk{
-  position: absolute;
-  width: 300px;
-  height: 40px;
-  left: 850px;
-  top: 210px;
+.lineofstk {
+  position: relative;
+}
+.stk {
+  width: 250px;
+  height: 42px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -269,13 +249,10 @@ p{
   color: #ffffff;
 }
 
-.sotaikhoan{
-  position: absolute;
-  width: 500px;
+.sotaikhoan {
+  position: relative;
   height: 60px;
-  left: 850px;
-  top: 280px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   color: #ffffff;
@@ -292,82 +269,40 @@ p{
 
 .pencil {
   position: absolute;
-  left: 1300px;
-  top: 290px;
+  top: 10px;
+  left: 250px;
 }
 
-.hoten{
-  position: absolute;
-  width: 300px;
-  height: 40px;
-  left: 650px;
-  top: 330px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
+
+.lineofhoten {
+  position: relative;
 }
 
-.hotenchuthe{
-  position: absolute;
-  width: 700px;
-  height: 60px;
-  left: 650px;
-  top: 410px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  color: #ffffff;
-  font-size: 25px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  transform: rotate(-0.16deg);
-  border: 5px solid #f4d58d;
-  box-sizing: border-box;
-  border-radius: 15px;
-  background-color: transparent;
-}
-
-.pen{
-  position: absolute;
-  left: 1300px;
-  top: 420px;
-}
-
-.ngayphathanh{
-  position: absolute;
-  width: 300px;
-  height: 40px;
-  left: 650px;
-  top: 460px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-}
-
-.month_year{
-  position: absolute;
-  padding: 8px;
-  left: 650px;
-  top: 540px;
+.hoten {
   width: 200px;
+  height: 42px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.hotenchuthe {
+  position: relative;
   height: 60px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   color: #ffffff;
   font-size: 25px;
   line-height: 22px;
+  display: flex;
+  align-items: center;
   transform: rotate(-0.16deg);
   border: 5px solid #f4d58d;
   box-sizing: border-box;
@@ -375,20 +310,60 @@ p{
   background-color: transparent;
 }
 
-.thaydoi {
+.pen {
   position: absolute;
-  left: 800px;
-  top: 640px;
+  top: 10px;
+  left: 490px;
 }
 
+.ngayphathanh {
+  width: 252.33px;
+  height: 40.6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.month_year {
+  height: 60px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  transform: rotate(-0.16deg);
+  border: 5px solid #f4d58d;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+
+.lineofbuttons {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding-right: 210px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.thaydoi{
+  padding-right: 10px;
+}
 .huy {
-  position: absolute;
-  left: 1030px;
-  top: 640px;
+  padding-right: 10px;
+
 }
 
 .luu {
-  position: absolute;
-  left: 1210px;
-  top: 640px;
 }

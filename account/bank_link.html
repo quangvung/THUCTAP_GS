@@ -41,27 +41,29 @@
     </div>
 
     <div class="lienketnganhang">
-        <div class="container">
+        <div class="row1">
             <div class="left">
                 <img src="/image/qltk.png" class="qltk">
                 <nav class="nav" style="text-align: left!important;">
-                  <a href="/account/account_info.html" onclick="tabs(0)" class="tab">
-                  THÔNG TIN TÀI KHOẢN
-                  </a>
-                  <br>
-                  <a href="/account/bank_link.html" onclick="tabs(1)" class="tab1">
-                    LIÊN KẾT NGÂN HÀNG
-                  </a>
-                  <br>
-                  <a href="/account/follow.html" onclick="tabs(2)" class="tab2">
-                    ĐƠN HÀNG CỦA TÔI
-                  </a>
+                    <a href="/account/account_info.html" onclick="tabs(0)" class="tab">
+                        THÔNG TIN TÀI KHOẢN
+                    </a>
+                    <br>
+                    <a href="/account/bank_link.html" onclick="tabs(1)" class="tab1">
+                        LIÊN KẾT NGÂN HÀNG
+                    </a>
+                    <br>
+                    <a href="/account/follow.html" onclick="tabs(2)" class="tab2">
+                        ĐƠN HÀNG CỦA TÔI
+                    </a>
                 </nav>
-              </div>
+            </div>
 
             <div class="right">
                 <div class="lknh">
-                    <h1 class="text_lknh">LIÊN KẾT NGÂN HÀNG </h1>
+                    <div class="lknh1">
+                        <img src="/image/lknh.png">
+                    </div>
                     <h3 class="tennganhang">Tên ngân hàng</h3>
                     <select class="combobox1">
                         <option value="Select">Vietcombank</option>
@@ -69,24 +71,38 @@
                         <option value="BIDV">BIDV</option>
                         <option value="MB BANK">MB BANK</option>
                     </select>
-                    <h3 class="loaithe">Loại thẻ</h3>
-                    <select class="combobox2">
-                        <option value="Select">VISA</option>
-                        <option value="VISA">VISA</option>
-                        <option value="Mastercard">Mastercard</option>
-                        <option value="Mastercard">Mastercard</option>
-                    </select>
-                    <h3 class="stk">Số tài khoản / Thẻ</h3>
-                    <input type="text" class="sotaikhoan">
-                    <img src="/image/pencil-create.png" class="pencil">
+                    <div>
+                        <div class="loaistk_the">
+                            <h3 class="loaithe">Loại thẻ</h3>
+                            <h3 class="stk">Số tài khoản / Thẻ</h3>
+                        </div>
+                        <div>
+                            <select class="combobox2">
+                                <option value="Select">VISA</option>
+                                <option value="VISA">VISA</option>
+                                <option value="Mastercard">Mastercard</option>
+                                <option value="Mastercard">Mastercard</option>
+                            </select>
+                            <div class="lineofstk">
+                                <input type="text" class="sotaikhoan">
+                                <img src="/image/pencil-create.png" class="pencil">
+                            </div>
+                        </div>
+                    </div>
+                
                     <h3 class="hoten">Họ tên chủ thẻ</h3>
-                    <input type="text" class="hotenchuthe">
-                    <img src="/image/pencil-create.png" class="pen">
+                    <div class="lineofhoten">
+                        <input type="text" class="hotenchuthe">
+                        <img src="/image/pencil-create.png" class="pen">
+                    </div>
                     <h3 class="ngayphathanh">Ngày phát hành</h3>
                     <input type="text" class="month_year" id="inputExpDate" placeholder="Month/Year" maxlength='7'>
-                    <img src="/image/thaydoi.png" class="thaydoi" />
-                    <img src="/image/huy.png" class="huy" />
-                    <img src="/image/luu.png" class="luu" />
+                    <div class="lineofbuttons">
+                        <img src="/image/thaydoi.png" class="thaydoi" />
+                        <img src="/image/huy.png" class="huy" />
+                        <img src="/image/luu.png" class="luu" />
+                    </div>
+
                 </div>
             </div>
 

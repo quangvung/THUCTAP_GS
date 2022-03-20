@@ -1,50 +1,50 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   background: #001427;
 }
 
-.header_homepage{
-  box-sizing:border-box;
+.header_homepage {
+  box-sizing: border-box;
   background-color: #001427;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-.navbar{
-  display:flex;
-  align-items:center;
-  padding:77px;
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 77px;
   padding-top: 40px;
   background: transparent;
 }
 
-.logo{
+.logo {
   /* padding-left:100px !important; */
   background: transparent;
   /* width: 82px; */
 }
 
-nav{
-  flex:1;
-  text-align:right;
+nav {
+  flex: 1;
+  text-align: right;
   background: transparent;
   padding-top: 30px;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-nav ul{
-  display:inline-block;
+nav ul {
+  display: inline-block;
   list-style-type: none;
   background: transparent;
 }
 
-nav ul li{
-  display:inline-block;
-  margin-right:70px;
-  font-family: 'Montserrat', sans-serif;
+nav ul li {
+  display: inline-block;
+  margin-right: 70px;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -54,8 +54,8 @@ nav ul li{
   background: transparent;
 }
 
-nav ul li::after{
-  content: '';
+nav ul li::after {
+  content: "";
   width: 0%;
   height: 2px;
   background: #f4d58d;
@@ -64,22 +64,22 @@ nav ul li::after{
   transition: 0.5s;
 }
 
-nav ul li:hover::after{
-  width:100%;
+nav ul li:hover::after {
+  width: 100%;
 }
 
-a{
+a {
   text-decoration: none;
   color: #f4d58d;
   background: transparent;
 }
 
-p{
-  padding-top:20px;
-  padding-left:430px;
-  padding-right:430px;
+p {
+  padding-top: 20px;
+  padding-left: 430px;
+  padding-right: 430px;
   background: transparent;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -87,35 +87,47 @@ p{
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   transform: rotate(-0.16deg);
 }
 
-.container{
-  max-width:1300px;
-  margin:auto;
-  padding-left:25px;
-  padding-right:25px;
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
   background: transparent;
 }
 
-.row{
-  display:flex;
-  align-items:center;
-  flex-wrap:wrap;
-  justify-content:space-around;
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background: transparent;
 }
 
-/*----------------------------------------*/
+/*-------------------------------*/
 
-/* .left {
-      position: absolute;
-      width: 626px;
-      height: 644px;
-      left: 10px;
-      top: 50px;
-    } */
+.row1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.left {
+  flex-basis: 50%;
+  min-width: 100px;
+  text-align: left;
+  padding-left: 200px;
+}
+
+.right {
+  flex-basis: 50%;
+  min-width: 100px;
+  text-align: left;
+}
 
 .nav a {
   list-style: none;
@@ -138,64 +150,35 @@ p{
   color: #708d81;
 }
 
-.quanlitaikhoan {
-  /* position: relative;
-  width: 1822px;
-  height: 900px; */
+.lienketnganhang {
   background: #001427;
 }
 
 .tab {
-  /* position: absolute;
-  top: 180px;
-  left: 150px; */
 }
 
 .tab1 {
-  /* position: absolute;
-  top: 240px;
-  left: 150px; */
 }
 
 .tab2 {
-  /* position: absolute;
-  top: 300px;
-  left: 150px; */
 }
 
 
-
-.text_tddh {
-  position: absolute;
-  top: -100px;
-  width: 587px;
-  height: 115px;
-  left: 750px;
-  font-family: "UTM Davida";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55px;
-  line-height: 71px;
-  display: flex;
-  align-items: center;
-  color: #f4d58d;
-}
 
 .madon {
-  position: absolute;
+ 
+
   width: 352px;
   height: 45px;
-  left: 598px;
-  top: 80px;
-  font-family: "Montserrat";
-  font-style: Regular;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
+    
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
 }
 
 .column {
