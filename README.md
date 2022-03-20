@@ -1,1 +1,0 @@
-# THUCTAP_GS
