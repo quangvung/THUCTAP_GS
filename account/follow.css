@@ -166,26 +166,27 @@ p {
 
 
 .madon {
- 
-
   width: 352px;
   height: 45px;
-    
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  position: absolute;
+  left: 600px;
+  top: 400px;
 }
 
 .column {
   position: absolute;
   left: 630px;
-  top: 180px;
+  top: 480px;
 }
+
 .madon1 {
   position: absolute;
   width: 352px;
@@ -207,4 +208,13 @@ p {
   position: absolute;
   left: 1100px;
   top: 180px;
+}
+
+.lineofmadonhang{
+  display: inline-block;
+}
+
+.lineofmadonhang img{
+  padding-top: 60px;
+  width: 280px;
 }

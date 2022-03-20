@@ -201,8 +201,21 @@ p {
   background-color: transparent;
 }
 
-.loaistk_the{
+.lineofcard_number{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
 }
+
+.card_bl{
+  flex-basis: 25%;
+}
+
+.number_bl{
+  flex-basis: 70%;
+  padding-left: 20px;
+}
+
 .loaithe {
   width: 196.25px;
   height: 40.6px;
