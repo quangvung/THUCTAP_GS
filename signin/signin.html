@@ -17,24 +17,27 @@
         <div class="navbar">
           <div class="logo" style="background: transparent;">
             <a href="/index.html">
-              <img src="/image/logo_header.png" width="82px" style="background: transparent;">
+              <img src="/image/logo_header.png" class="logoheader" width="102px" style="background: transparent;">
             </a>
           </div>
+          <img src="/image/menuicon.png" class="menu-icon" onclick="menutoggle()">
           <nav>
-            <ul>
+            <ul id="MenuItems">
               <li><a href="/home/home.html">Trang chủ</a></li>
               <li><a href="/intro/intro.html">Giới thiệu</a></li>
               <li><a href="/contact/contact.html">Liên hệ</a></li>
               <li><a href="/store/store.html">Cửa hàng</a></li>
+              <li class="notdisplay"><a href="/signin/signin.html">Đăng nhập</a></li>
+              <li class="notdisplay"><a href="/cart/cart.html">Gio hàng</a></li>
             </ul>
           </nav>
           <a href="/signin/signin.html">
-            <!-- <i class="fa fa-user-circle-o" style="color:#f4d58d"></i> -->
-            <img src="/image/user.png" width="65px" style="padding-right:25px; background: transparent; margin-top:30px;">
+              <!-- <i class="fa fa-user-circle-o" style="color:#f4d58d"></i> -->
+            <img src="/image/user.png"  class="userheader"  width="65px" style="padding-right:25px; background: transparent; margin-top:30px;">
           </a>
           <a href="/cart/cart.html">
             <!-- <i class="fa fa-shopping-cart" style="color:#f4d58d"></i> -->
-            <img src="/image/icon.png" width="41px"  style="background: transparent; margin-top:30px;">
+            <img src="/image/icon.png"  class="cartheader"  width="41px"  style="background: transparent; margin-top:30px;">
           </a>
         </div>
       </div>
@@ -76,5 +79,20 @@
           </div>
       </div>
   </div>
+  <!-- JS for toggle menu -->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
 </body>
 </html>

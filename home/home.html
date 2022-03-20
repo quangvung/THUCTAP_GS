@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Festive&family=Poppins:ital,wght@0,100;1,100;1,300&family=Satisfy&display=swap" rel="stylesheet"> 
   <!-- Icon 4.7 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
-
 <body>
 	<div class="home_page">
         <!-- header_homepage -->
@@ -25,30 +22,33 @@
               <div class="navbar">
                 <div class="logo" style="background: transparent;">
                   <a href="/index.html">
-                    <img src="/image/logo_header.png" width="82px" style="background: transparent;">
+                    <img src="/image/logo_header.png" class="logoheader" width="102px" style="background: transparent;">
                   </a>
                 </div>
+                <img src="/image/menuicon.png" class="menu-icon" onclick="menutoggle()">
                 <nav>
-                  <ul>
+                  <ul id="MenuItems">
                     <li><a href="/home/home.html">Trang chủ</a></li>
                     <li><a href="/intro/intro.html">Giới thiệu</a></li>
                     <li><a href="/contact/contact.html">Liên hệ</a></li>
                     <li><a href="/store/store.html">Cửa hàng</a></li>
+                    <li class="notdisplay"><a href="/signin/signin.html">Đăng nhập</a></li>
+                    <li class="notdisplay"><a href="/cart/cart.html">Gio hàng</a></li>
                   </ul>
                 </nav>
                 <a href="/signin/signin.html">
                     <!-- <i class="fa fa-user-circle-o" style="color:#f4d58d"></i> -->
-                  <img src="/image/user.png" width="65px" style="padding-right:25px; background: transparent; margin-top:30px;">
+                  <img src="/image/user.png"  class="userheader"  width="65px" style="padding-right:25px; background: transparent; margin-top:30px;">
                 </a>
                 <a href="/cart/cart.html">
                   <!-- <i class="fa fa-shopping-cart" style="color:#f4d58d"></i> -->
-                  <img src="/image/icon.png" width="41px"  style="background: transparent; margin-top:30px;">
+                  <img src="/image/icon.png"  class="cartheader"  width="41px"  style="background: transparent; margin-top:30px;">
                 </a>
               </div>
             </div>
           </div>
         <!-- sliders_homepage -->
-        <section class="sliders_homepage" style="background-color: #001427;">
+        <section class="sliders_homepage displayed" style="background-color: #001427;">
             <div class="slideshow-container">
                 <!-- Full-width images with number and text -->
                 <div class="mySlides fade">
@@ -114,90 +114,6 @@
                     </div>
                 </div>
         
-                <div class="mySlides fade">
-                    <img src="gom1.png" class="img_gom1">
-                    <div class="text">
-                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
-                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
-                        <p class="p_sec2">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the industry's
-                          standard dummy text ever since the 1500s, when an unknown
-                          printer took a galley of type and scrambled it to make a type
-                          specimen book.4
-                        </p>
-                        <div style="display:inline;">
-                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
-                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
-                            <!-- <button class="btn_xemthem">XEM THÊM</button>
-                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="mySlides fade">
-                    <img src="gom1.png" class="img_gom1">
-                    <div class="text">
-                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
-                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
-                        <p class="p_sec2">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the industry's
-                          standard dummy text ever since the 1500s, when an unknown
-                          printer took a galley of type and scrambled it to make a type
-                          specimen book.5
-                        </p>
-                        <div style="display:inline;">
-                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
-                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
-                            <!-- <button class="btn_xemthem">XEM THÊM</button>
-                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="mySlides fade">
-                    <img src="gom1.png" class="img_gom1">
-                    <div class="text">
-                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
-                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
-                        <p class="p_sec2">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the industry's
-                          standard dummy text ever since the 1500s, when an unknown
-                          printer took a galley of type and scrambled it to make a type
-                          specimen book.6
-                        </p>
-                        <div style="display:inline;">
-                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
-                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
-                            <!-- <button class="btn_xemthem">XEM THÊM</button>
-                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="mySlides fade">
-                    <img src="gom1.png" class="img_gom1">
-                    <div class="text">
-                        <!-- <h3 class="text_gomsubattrang">GỐM SỨ BÁT TRÀNG</h3> -->
-                        <img src="gomsubattrang.png" class="img_gomsubattrang">/>
-                        <p class="p_sec2">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the industry's
-                          standard dummy text ever since the 1500s, when an unknown
-                          printer took a galley of type and scrambled it to make a type
-                          specimen book.7
-                        </p>
-                        <div style="display:inline;">
-                            <input type="submit" name="action" class="btn_xemthem" value="XEM THÊM" />
-                            <input type="submit" name="action" class="btn_sanpham" value="XEM SẢN PHẨM" />
-                            <!-- <button class="btn_xemthem">XEM THÊM</button>
-                            <button class="btn_sanpham">XEM SẢN PHẨM</button> -->
-                        </div>
-                    </div>
-                </div>
-        
                 <!-- Next and previous buttons -->
                 <a class="prev" onclick="plusSlides(-1)">
                     <img src="/image/iconarrowleft.png" style="padding-left: 75px;"/>
@@ -214,17 +130,13 @@
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span>
-                    <span class="dot" onclick="currentSlide(4)"></span>
-                    <span class="dot" onclick="currentSlide(5)"></span>
-                    <span class="dot" onclick="currentSlide(6)"></span>
-                    <span class="dot" onclick="currentSlide(7)"></span>
                 </div>
                 <br>
                 <br>
             </div>
         </section>
         <!-- nguongoc_homepage -->
-        <section class="nguongoc_homepage">
+        <section class="nguongoc_homepage displayed">
             <div class="homepage_nguongoc">
                 <div class="row-1st">
                     <div class="col-1">
@@ -281,7 +193,7 @@
             </div>
         </section>
         <!-- dacdiem_homepage -->
-        <section class="dacdiem_homepage">
+        <section class="dacdiem_homepage displayed">
             <div class="homepage_dacdiem">
                 <div class="dacdiem_row-1st">
                     <div class="dacdiem_col-1">
@@ -310,7 +222,7 @@
             </div>
         </section>
         <!-- hinhanh_homepage -->
-        <section class="hinhanh_homepage">
+        <section class="hinhanh_homepage displayed">
             <div class="slideshow-container2">
                 <!-- <h1 class="homepage-hinhanh">HÌNH ẢNH</h1> -->
                 <img src="text_hinhanh.png" class="text_hinhanh">
@@ -502,6 +414,21 @@
         }
         slides2[slideIndex2-1].style.display = "block";  
         dots2[slideIndex2-1].className += " active";
+        }
+    </script>
+    <!-- JS for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
         }
     </script>
 </body>

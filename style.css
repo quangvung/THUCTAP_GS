@@ -181,7 +181,7 @@ transform: rotate(-0.16deg);
     position: absolute;
     width:50px;
     top: 30px;
-    left: 260px;
+    left: 330px;
   }
 
   .userheader{
@@ -224,8 +224,8 @@ transform: rotate(-0.16deg);
   }
 
   .langsom{
-    padding-left: 0px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 250px;
     padding-top: 100px;
     padding-bottom: 10px;
@@ -246,7 +246,7 @@ transform: rotate(-0.16deg);
   .text_start{
     display: block;
     background: transparent;
-    padding-right: 30px;
+    padding-right: 10px;
     /*padding-top: 10px;
     padding-left: 100px;
     padding-bottom: 10px; */
@@ -266,6 +266,6 @@ transform: rotate(-0.16deg);
   .start_btn{
     display: block;
     background: transparent;
-    padding-right: 30px;
+    padding-right: 20px;
   }
 }
