@@ -638,3 +638,126 @@ color: #F4D58D;
   justify-content: center;
   align-items: center; 
 }
+
+
+/*IPHONE 11*/
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
+.notdisplay{
+  display: none;
+}
+
+.text_start{
+  display: none;
+}
+
+.start_btn{
+  display: none;
+}
+
+/* ------------------- MEDIA QUERY FOR MENU ----------ỔN--------- */
+@media only screen and (max-width:415px){
+  nav ul{
+      position: absolute;
+      top:70px;
+      left:0;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+  }
+
+  nav ul li{
+      display: block;
+      margin-right: 50px;
+      margin-top:10px;
+      margin-bottom:10px;
+  }
+
+  nav ul li a{
+      color:#fff;
+  }
+
+  .menu-icon{
+      display: block;
+      cursor: pointer;
+      position: absolute;
+      width: 36px;
+      left: 18px;
+      top:50px;
+  }
+
+  .logoheader{
+    position: absolute;
+    width:50px;
+    top: 30px;
+    left: 330px;
+  }
+
+  .userheader{
+    display: none;
+  }
+
+  .cartheader{
+    display: none;
+  }
+
+  .col-2{
+      padding-left: 20px;
+  }
+
+  .btn{
+      margin-left: 30px;
+  }
+
+  .prev, .next {
+      display: none;
+  }
+
+  .notdisplay{ /*khóa tạm*/
+    display: block;
+  }
+}
+
+/* ------------------- MEDIA QUERY FOR HOMEPAGE ------ổn------------- */
+@media only screen and (max-width:415px){
+  .displayed{ /*khóa tạm*/
+    display: none;
+  }
+
+  .footer_homepage{
+    background-color: #001427;
+  }
+
+  .logo_footer{
+    width:50px;
+  }
+
+  .footer_nav{
+    padding-bottom: 10px;
+  }
+  
+  .footer_nav h2{
+    font-size: 12px;
+    line-height: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .footer_icons{
+    padding-bottom: 10px;
+  }
+  
+  .footer_icons img{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40px;
+  }
+  
+  .footer_copyright img{
+    width: 306px;
+  } 
+}

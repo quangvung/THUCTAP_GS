@@ -225,3 +225,179 @@ p{
   justify-content: center;
   align-items: center; 
 }
+
+/*IPHONE 11*/
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
+.notdisplay{
+  display: none;
+}
+
+.text_start{
+  display: none;
+}
+
+.start_btn{
+  display: none;
+}
+
+/* ------------------- MEDIA QUERY FOR MENU ----------ỔN--------- */
+@media only screen and (max-width:415px){
+  *{
+    background-color: #001427;
+  }
+  nav ul{
+      position: absolute;
+      top:70px;
+      left:0;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+  }
+
+  nav ul li{
+      display: block;
+      margin-right: 50px;
+      margin-top:10px;
+      margin-bottom:10px;
+  }
+
+  nav ul li a{
+      color:#fff;
+  }
+
+  .menu-icon{
+      display: block;
+      cursor: pointer;
+      position: absolute;
+      width: 36px;
+      left: 18px;
+      top:50px;
+  }
+
+  .logoheader{
+    position: absolute;
+    width:50px;
+    top: 30px;
+    left: 330px;
+  }
+
+  .userheader{
+    display: none;
+  }
+
+  .cartheader{
+    display: none;
+  }
+
+  .col-2{
+      padding-left: 20px;
+  }
+
+  .btn{
+      margin-left: 30px;
+  }
+
+  .prev, .next {
+      display: none;
+  }
+
+  .notdisplay{ /*khóa tạm*/
+    display: block;
+  }
+}
+
+/* ------------------- MEDIA QUERY FOR SIGNUP PAGE ------ổn------------- */
+.lienhe_ip{
+  display: none;
+}
+@media only screen and (max-width:415px){
+  .lienhe{
+    display: none;
+  }
+
+  .lienhe_ip{
+    display: inline-block;
+  }
+
+  .title_ip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title_ip img{
+    padding-bottom: 10px;
+  }
+
+  .search{
+    width: 300px;
+    margin-left: 50px;
+    font-size: 18px;
+  }
+
+  .union{
+    margin-top: 12px;
+    margin-left: 310px;
+    width: 30px;
+  }
+
+  .map{
+    padding-left: 50px;
+    padding-bottom: 10px;
+  }
+
+  .text_ip img{
+    padding-left: 50px;
+    width: 200px;
+  }
+
+  .icons_ip img{
+    padding-left: 50px;
+    width: 150px;
+  }
+}
+
+/* ------------------- MEDIA QUERY FOR HOMEPAGE ------ổn------------- */
+@media only screen and (max-width:415px){
+  .displayed{ /*khóa tạm*/
+    display: none;
+  }
+
+  .footer_homepage{
+    background-color: #001427!important;
+  }
+
+  .logo_footer{
+    width:50px;
+  }
+
+  .footer_nav{
+    padding-bottom: 10px;
+  }
+  
+  .footer_nav h2{
+    font-size: 12px;
+    line-height: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .footer_icons{
+    padding-bottom: 10px;
+  }
+  
+  .footer_icons img{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40px;
+  }
+  
+  .footer_copyright img{
+    width: 306px;
+  }
+}
